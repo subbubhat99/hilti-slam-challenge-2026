@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-17b431ff5c7408f9c45a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "challenge_tools_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_challenge_tools_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_challenge_tools_ros_egg-Release-8101b94b666fa9fa1a84.json",
+					"name" : "ament_cmake_python_build_challenge_tools_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_challenge_tools_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_challenge_tools_ros-Release-3bbe299b30983bd03c03.json",
+					"name" : "ament_cmake_python_symlink_challenge_tools_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "challenge_tools_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-challenge_tools_ros_uninstall-Release-55c917e05ce324f852b4.json",
+					"name" : "challenge_tools_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-26c8b48bd8704d0bd816.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/subbu/slam_ws/build/challenge_tools_ros",
+		"source" : "/home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

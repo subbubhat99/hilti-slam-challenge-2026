@@ -1,0 +1,447 @@
+[0.361s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list']
+[0.361s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76a5e3729960>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76a5e37289d0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76a5e37289d0>>, mixin_verb=('list',))
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.714s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/subbu/slam_ws'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extension 'ignore_ament_install'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extensions ['colcon_pkg']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extension 'colcon_pkg'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extensions ['colcon_meta']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extension 'colcon_meta'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/hilti-trimble-slam-challenge-2026) by extension 'ros'
+[0.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hilti-trimble-slam-challenge-2026' with type 'ros.ament_cmake' and name 'challenge_tools_ros'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extensions ['ignore', 'ignore_ament_install']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'ignore'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'ignore_ament_install'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extensions ['colcon_pkg']
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'colcon_pkg'
+[0.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extensions ['colcon_meta']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'colcon_meta'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extensions ['ros']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'ros'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extensions ['cmake', 'python']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'cmake'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'python'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extensions ['python_setup_py']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins) by extension 'python_setup_py'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extensions ['ignore', 'ignore_ament_install']
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'ignore'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'ignore_ament_install'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extensions ['colcon_pkg']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'colcon_pkg'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extensions ['colcon_meta']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'colcon_meta'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extensions ['ros']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'ros'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extensions ['cmake', 'python']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'cmake'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'python'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extensions ['python_setup_py']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config) by extension 'python_setup_py'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'ignore'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'ignore_ament_install'
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extensions ['colcon_meta']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'colcon_meta'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extensions ['ros']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'ros'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extensions ['cmake', 'python']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'cmake'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'python'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extensions ['python_setup_py']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/euroc_mav) by extension 'python_setup_py'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extensions ['ignore', 'ignore_ament_install']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'ignore_ament_install'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extensions ['colcon_pkg']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'colcon_pkg'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extensions ['colcon_meta']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'colcon_meta'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extensions ['ros']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'ros'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extensions ['cmake', 'python']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'cmake'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'python'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extensions ['python_setup_py']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist) by extension 'python_setup_py'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'ignore_ament_install'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extensions ['colcon_pkg']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'colcon_pkg'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extensions ['colcon_meta']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'colcon_meta'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extensions ['ros']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'ros'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extensions ['cmake', 'python']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'cmake'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'python'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extensions ['python_setup_py']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/kaist_vio) by extension 'python_setup_py'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'colcon_pkg'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extensions ['colcon_meta']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'colcon_meta'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extensions ['ros']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'ros'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extensions ['cmake', 'python']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'cmake'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'python'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extensions ['python_setup_py']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_aruco) by extension 'python_setup_py'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'ignore'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'ignore_ament_install'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extensions ['colcon_pkg']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'ros'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extensions ['cmake', 'python']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'cmake'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'python'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extensions ['python_setup_py']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_ironsides) by extension 'python_setup_py'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'ros'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extensions ['cmake', 'python']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'cmake'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'python'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extensions ['python_setup_py']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_plane) by extension 'python_setup_py'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'ros'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extensions ['cmake', 'python']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'cmake'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'python'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extensions ['python_setup_py']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rpng_sim) by extension 'python_setup_py'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extensions ['ignore', 'ignore_ament_install']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'ignore'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'ignore_ament_install'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extensions ['colcon_pkg']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'colcon_pkg'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extensions ['colcon_meta']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'colcon_meta'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extensions ['ros']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'ros'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extensions ['cmake', 'python']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'cmake'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'python'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extensions ['python_setup_py']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_d455) by extension 'python_setup_py'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'ignore'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'ignore_ament_install'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extensions ['colcon_pkg']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'colcon_pkg'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extensions ['colcon_meta']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'colcon_meta'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extensions ['ros']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'ros'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extensions ['cmake', 'python']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'cmake'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'python'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extensions ['python_setup_py']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/rs_t265) by extension 'python_setup_py'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extensions ['ignore', 'ignore_ament_install']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'ignore'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extensions ['colcon_meta']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'colcon_meta'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extensions ['ros']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'cmake'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'python'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extensions ['python_setup_py']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/tum_vi) by extension 'python_setup_py'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'ignore_ament_install'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extensions ['colcon_pkg']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'colcon_pkg'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extensions ['colcon_meta']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'colcon_meta'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extensions ['ros']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'ros'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extensions ['cmake', 'python']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extensions ['python_setup_py']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor) by extension 'python_setup_py'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extensions ['cmake', 'python']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'cmake'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'python'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_indoor_45) by extension 'python_setup_py'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'ros'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extensions ['cmake', 'python']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'cmake'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/config/uzhfpv_outdoor_45) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'ignore_ament_install'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extensions ['colcon_pkg']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extensions ['cmake', 'python']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extensions ['ros']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'ros'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extensions ['cmake', 'python']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'cmake'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'python'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extensions ['python_setup_py']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/bib) by extension 'python_setup_py'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'cmake'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'python'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extensions ['python_setup_py']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/css) by extension 'python_setup_py'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'ros'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extensions ['cmake', 'python']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'cmake'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'python'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extensions ['python_setup_py']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img) by extension 'python_setup_py'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/datasets) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extensions ['cmake', 'python']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'cmake'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'python'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extensions ['python_setup_py']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/img/eval) by extension 'python_setup_py'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'ros'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extensions ['cmake', 'python']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'cmake'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'python'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extensions ['python_setup_py']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/mcss_theme) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'cmake'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'python'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extensions ['python_setup_py']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/docs/youtube) by extension 'python_setup_py'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extension 'ignore_ament_install'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extensions ['colcon_pkg']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extension 'colcon_pkg'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extensions ['colcon_meta']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extension 'colcon_meta'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extensions ['ros']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_core) by extension 'ros'
+[0.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_vins/ov_core' with type 'ros.ament_cmake' and name 'ov_core'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extensions ['ignore', 'ignore_ament_install']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extension 'colcon_meta'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extensions ['ros']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_data) by extension 'ros'
+[0.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_vins/ov_data' with type 'ros.ament_cmake' and name 'ov_data'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_eval) by extension 'ros'
+[0.803s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_vins/ov_eval' with type 'ros.ament_cmake' and name 'ov_eval'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extensions ['ros']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_init) by extension 'ros'
+[0.811s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_vins/ov_init' with type 'ros.ament_cmake' and name 'ov_init'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_vins/ov_msckf) by extension 'ros'
+[0.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_vins/ov_msckf' with type 'ros.ament_cmake' and name 'ov_msckf'
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults

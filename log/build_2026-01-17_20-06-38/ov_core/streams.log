@@ -1,0 +1,218 @@
+[0.024s] Invoking command in '/home/subbu/slam_ws/build/ov_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_core
+[0.194s] -- The C compiler identification is GNU 11.4.0
+[0.377s] -- The CXX compiler identification is GNU 11.4.0
+[0.392s] -- Detecting C compiler ABI info
+[0.508s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.521s] -- Detecting C compile features
+[0.522s] -- Detecting C compile features - done
+[0.528s] -- Detecting CXX compiler ABI info
+[0.667s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.693s] -- Detecting CXX compile features
+[0.695s] -- Detecting CXX compile features - done
+[0.737s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[1.029s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem thread date_time 
+[1.031s] -- OPENCV: 4.5.4 | BOOST: 1.74.0
+[1.049s] -- PYTHON VERSION: 3.10.12
+[1.050s] -- PYTHON INCLUDE: /usr/include/python3.10
+[1.050s] -- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.321s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.439s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.476s] -- ROS *2* version found, building ROS2.cmake
+[1.483s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.543s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.552s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.567s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.695s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.699s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.871s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.928s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.946s] -- Found Threads: TRUE  
+[2.033s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.198s] -- Configuring done
+[2.245s] -- Generating done
+[2.258s] -- Build files have been written to: /home/subbu/slam_ws/build/ov_core
+[2.272s] Invoked command in '/home/subbu/slam_ws/build/ov_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_core
+[2.274s] Invoking command in '/home/subbu/slam_ws/build/ov_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_core -- -j8 -l8
+[2.357s] [  5%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/cpi/CpiV1.cpp.o[0m
+[2.358s] [ 15%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/sim/BsplineSE3.cpp.o[0m
+[2.358s] [ 10%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/cpi/CpiV2.cpp.o[0m
+[2.358s] [ 26%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackBase.cpp.o[0m
+[2.359s] [ 26%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/dummy.cpp.o[0m
+[2.360s] [ 31%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackAruco.cpp.o[0m
+[2.360s] [ 36%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackDescriptor.cpp.o[0m
+[2.368s] [ 42%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackKLT.cpp.o[0m
+[2.434s] [ 47%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/track/TrackSIM.cpp.o[0m
+[23.428s] [ 52%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/types/Landmark.cpp.o[0m
+[27.916s] [ 57%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/feat/Feature.cpp.o[0m
+[28.123s] [ 63%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/feat/FeatureDatabase.cpp.o[0m
+[29.291s] [ 68%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/feat/FeatureInitializer.cpp.o[0m
+[30.238s] [ 73%] [32mBuilding CXX object CMakeFiles/ov_core_lib.dir/src/utils/print.cpp.o[0m
+[62.800s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:341[m[K,
+[62.800s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[62.800s]                  from [01m[K/usr/include/eigen3/Eigen/Eigen:1[m[K,
+[62.800s]                  from [01m[K/home/subbu/slam_ws/src/open_vins/ov_core/src/utils/opencv_yaml_parse.h:25[m[K,
+[62.800s]                  from [01m[K/home/subbu/slam_ws/src/open_vins/ov_core/src/feat/FeatureInitializerOptions.h:25[m[K,
+[62.800s]                  from [01m[K/home/subbu/slam_ws/src/open_vins/ov_core/src/feat/FeatureInitializer.h:27[m[K,
+[62.800s]                  from [01m[K/home/subbu/slam_ws/src/open_vins/ov_core/src/feat/FeatureInitializer.cpp:22[m[K:
+[62.800s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:[m[K In function ‘[01m[Kstatic void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6][m[K’:
+[62.800s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[62.801s]   327 |     [01;35m[Kinternal::triangular_matrix_vector_product[m[K
+[62.801s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.801s]   328 | [01;35m[K      <Index,Mode,[m[K
+[62.801s]       |       [01;35m[K~~~~~~~~~~~~[m[K
+[62.801s]   329 | [01;35m[K       LhsScalar, LhsBlasTraits::NeedToConjugate,[m[K
+[62.801s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.801s]   330 | [01;35m[K       RhsScalar, RhsBlasTraits::NeedToConjugate,[m[K
+[62.801s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.801s]   331 | [01;35m[K       RowMajor>[m[K
+[62.801s]       |        [01;35m[K~~~~~~~~~[m[K
+[62.801s]   332 | [01;35m[K      ::run(actualLhs.rows(),actualLhs.cols(),[m[K
+[62.801s]       |       [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.801s]   333 | [01;35m[K            actualLhs.data(),actualLhs.outerStride(),[m[K
+[62.801s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.802s]   334 | [01;35m[K            actualRhsPtr,1,[m[K
+[62.802s]       |             [01;35m[K~~~~~~~~~~~~~~~[m[K
+[62.802s]   335 | [01;35m[K            dest.data(),dest.innerStride(),[m[K
+[62.802s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[62.802s]   336 | [01;35m[K            actualAlpha)[m[K;
+[62.802s]       |             [01;35m[K~~~~~~~~~~~~[m[K
+[62.802s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24:[m[K [01;36m[Knote: [m[Kby argument 5 of type ‘[01m[Kconst double*[m[K’ to ‘[01m[Kstatic void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0][m[K’ declared here
+[62.802s]   105 | EIGEN_DONT_INLINE void [01;36m[Ktriangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>[m[K
+[62.802s]       |                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[75.615s] [ 78%] [32m[1mLinking CXX shared library libov_core_lib.so[0m
+[77.869s] [ 78%] Built target ov_core_lib
+[77.899s] [ 89%] [32mBuilding CXX object CMakeFiles/test_webcam.dir/src/test_webcam.cpp.o[0m
+[77.899s] [ 89%] [32mBuilding CXX object CMakeFiles/test_profile.dir/src/test_profile.cpp.o[0m
+[97.746s] [ 94%] [32m[1mLinking CXX executable test_webcam[0m
+[98.791s] [ 94%] Built target test_webcam
+[108.746s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:341[m[K,
+[108.746s]                  from [01m[K/usr/include/eigen3/Eigen/Dense:1[m[K,
+[108.746s]                  from [01m[K/home/subbu/slam_ws/src/open_vins/ov_core/src/test_profile.cpp:27[m[K:
+[108.746s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:[m[K In function ‘[01m[Kstatic void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6][m[K’:
+[108.747s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[108.747s]   327 |     [01;35m[Kinternal::triangular_matrix_vector_product[m[K
+[108.747s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[108.747s]   328 | [01;35m[K      <Index,Mode,[m[K
+[108.747s]       |       [01;35m[K~~~~~~~~~~~~[m[K
+[108.747s]   329 | [01;35m[K       LhsScalar, LhsBlasTraits::NeedToConjugate,[m[K
+[108.747s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[108.747s]   330 | [01;35m[K       RhsScalar, RhsBlasTraits::NeedToConjugate,[m[K
+[108.747s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[108.747s]   331 | [01;35m[K       RowMajor>[m[K
+[108.747s]       |        [01;35m[K~~~~~~~~~[m[K
+[108.747s]   332 | [01;35m[K      ::run(actualLhs.rows(),actualLhs.cols(),[m[K
+[108.747s]       |       [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[108.748s]   333 | [01;35m[K            actualLhs.data(),actualLhs.outerStride(),[m[K
+[108.748s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[108.748s]   334 | [01;35m[K            actualRhsPtr,1,[m[K
+[108.748s]       |             [01;35m[K~~~~~~~~~~~~~~~[m[K
+[108.748s]   335 | [01;35m[K            dest.data(),dest.innerStride(),[m[K
+[108.748s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[108.748s]   336 | [01;35m[K            actualAlpha)[m[K;
+[108.748s]       |             [01;35m[K~~~~~~~~~~~~[m[K
+[108.748s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24:[m[K [01;36m[Knote: [m[Kby argument 5 of type ‘[01m[Kconst double*[m[K’ to ‘[01m[Kstatic void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0][m[K’ declared here
+[108.748s]   105 | EIGEN_DONT_INLINE void [01;36m[Ktriangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>[m[K
+[108.748s]       |                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.205s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:[m[K In function ‘[01m[Kstatic void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<float, float>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<float>, const Eigen::Matrix<float, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<float, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<float, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6][m[K’:
+[120.205s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[120.205s]   327 |     [01;35m[Kinternal::triangular_matrix_vector_product[m[K
+[120.205s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.205s]   328 | [01;35m[K      <Index,Mode,[m[K
+[120.205s]       |       [01;35m[K~~~~~~~~~~~~[m[K
+[120.205s]   329 | [01;35m[K       LhsScalar, LhsBlasTraits::NeedToConjugate,[m[K
+[120.205s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.205s]   330 | [01;35m[K       RhsScalar, RhsBlasTraits::NeedToConjugate,[m[K
+[120.205s]       |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.205s]   331 | [01;35m[K       RowMajor>[m[K
+[120.206s]       |        [01;35m[K~~~~~~~~~[m[K
+[120.206s]   332 | [01;35m[K      ::run(actualLhs.rows(),actualLhs.cols(),[m[K
+[120.206s]       |       [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.206s]   333 | [01;35m[K            actualLhs.data(),actualLhs.outerStride(),[m[K
+[120.206s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.206s]   334 | [01;35m[K            actualRhsPtr,1,[m[K
+[120.206s]       |             [01;35m[K~~~~~~~~~~~~~~~[m[K
+[120.206s]   335 | [01;35m[K            dest.data(),dest.innerStride(),[m[K
+[120.206s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[120.207s]   336 | [01;35m[K            actualAlpha)[m[K;
+[120.207s]       |             [01;35m[K~~~~~~~~~~~~[m[K
+[120.207s] [01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24:[m[K [01;36m[Knote: [m[Kby argument 5 of type ‘[01m[Kconst float*[m[K’ to ‘[01m[Kstatic void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = float; bool ConjLhs = false; RhsScalar = float; bool ConjRhs = false; int Version = 0][m[K’ declared here
+[120.207s]   105 | EIGEN_DONT_INLINE void [01;36m[Ktriangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>[m[K
+[120.207s]       |                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[133.663s] [100%] [32m[1mLinking CXX executable test_profile[0m
+[134.561s] [100%] Built target test_profile
+[134.577s] Invoked command in '/home/subbu/slam_ws/build/ov_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_core -- -j8 -l8
+[134.580s] Invoking command in '/home/subbu/slam_ws/build/ov_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_core
+[134.590s] -- Install configuration: ""
+[134.590s] -- Execute custom install script
+[134.591s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/library_path.sh
+[134.602s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/library_path.dsv
+[134.613s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/lib/ov_core/test_webcam
+[134.625s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/lib/ov_core/test_profile
+[134.640s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/package_run_dependencies/ov_core
+[134.652s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/parent_prefix_path/ov_core
+[134.665s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/ament_prefix_path.sh
+[134.677s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/ament_prefix_path.dsv
+[134.689s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/path.sh
+[134.700s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/path.dsv
+[134.711s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.bash
+[134.722s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.sh
+[134.736s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.zsh
+[134.750s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.dsv
+[134.762s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/package.dsv
+[134.774s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/packages/ov_core
+[134.786s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[134.798s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ament_cmake_export_libraries-extras.cmake
+[134.811s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ov_coreConfig.cmake
+[134.824s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ov_coreConfig-version.cmake
+[134.838s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/package.xml
+[134.849s] -- Installing: /home/subbu/slam_ws/install/ov_core/lib/libov_core_lib.so
+[134.945s] -- Set runtime path of "/home/subbu/slam_ws/install/ov_core/lib/libov_core_lib.so" to ""
+[134.945s] -- Installing: /home/subbu/slam_ws/install/ov_core/include
+[134.945s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils
+[134.945s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/print.h
+[134.945s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/colors.h
+[134.946s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/opencv_lambda_body.h
+[134.949s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/quat_ops.h
+[134.949s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/opencv_yaml_parse.h
+[134.950s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/dataset_reader.h
+[134.950s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/utils/sensor_data.h
+[134.950s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/sim
+[134.951s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/sim/BsplineSE3.h
+[134.951s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/plot
+[134.952s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/plot/matplotlibcpp.h
+[134.952s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track
+[134.953s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/Grider_GRID.h
+[134.953s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/TrackSIM.h
+[134.954s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/TrackBase.h
+[134.954s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/TrackDescriptor.h
+[134.954s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/TrackAruco.h
+[134.955s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/Grider_FAST.h
+[134.955s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/track/TrackKLT.h
+[134.955s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types
+[134.955s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/Vec.h
+[134.956s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/JPLQuat.h
+[134.956s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/Type.h
+[134.956s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/PoseJPL.h
+[134.956s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/LandmarkRepresentation.h
+[134.957s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/Landmark.h
+[134.957s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/types/IMU.h
+[134.957s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cpi
+[134.958s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiV1.h
+[134.958s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiV2.h
+[134.958s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiBase.h
+[134.959s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/feat
+[134.959s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureInitializerOptions.h
+[134.959s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureDatabase.h
+[134.959s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/feat/Feature.h
+[134.960s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureInitializer.h
+[134.960s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureHelper.h
+[134.960s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cam
+[134.960s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cam/CamRadtan.h
+[134.961s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cam/CamEqui.h
+[134.961s] -- Installing: /home/subbu/slam_ws/install/ov_core/include/cam/CamBase.h
+[134.966s] Invoked command in '/home/subbu/slam_ws/build/ov_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_core

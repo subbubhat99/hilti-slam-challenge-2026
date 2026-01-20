@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target ov_eval_lib[0m
+[  3%] [32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/alignment/AlignUtils.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultSimulation.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultTrajectory.cpp.o[0m

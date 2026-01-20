@@ -1,0 +1,1 @@
+/home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026/scripts/challenge_tools_ros/groundtruth_server.py

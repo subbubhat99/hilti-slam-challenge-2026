@@ -1,0 +1,58 @@
+[0.011s] Invoking command in '/home/subbu/slam_ws/build/ov_eval': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_eval -- -j8 -l8
+[0.090s] [ 25%] Built target ov_eval_lib
+[0.139s] [ 40%] Built target format_converter
+[0.139s] [ 40%] Built target error_singlerun
+[0.139s] [ 48%] Built target error_simulation
+[0.139s] [ 55%] Built target timing_comparison
+[0.140s] [ 62%] Built target timing_histogram
+[0.140s] [ 70%] Built target timing_flamegraph
+[0.140s] [ 85%] Built target error_dataset
+[0.141s] [ 85%] Built target error_comparison
+[0.169s] [100%] Built target plot_trajectories
+[0.169s] [100%] Built target timing_percentages
+[0.181s] Invoked command in '/home/subbu/slam_ws/build/ov_eval' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_eval -- -j8 -l8
+[0.183s] Invoking command in '/home/subbu/slam_ws/build/ov_eval': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_eval
+[0.192s] -- Install configuration: ""
+[0.193s] -- Execute custom install script
+[0.194s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.sh
+[0.194s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.dsv
+[0.195s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/format_converter
+[0.196s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_comparison
+[0.196s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_dataset
+[0.196s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_singlerun
+[0.197s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_simulation
+[0.197s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_comparison
+[0.197s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_flamegraph
+[0.198s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_histogram
+[0.198s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_percentages
+[0.198s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/plot_trajectories
+[0.199s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/package_run_dependencies/ov_eval
+[0.200s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/parent_prefix_path/ov_eval
+[0.200s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.sh
+[0.200s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.dsv
+[0.201s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.sh
+[0.201s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.dsv
+[0.201s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.bash
+[0.202s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.sh
+[0.202s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.zsh
+[0.202s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.dsv
+[0.202s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.dsv
+[0.213s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/packages/ov_eval
+[0.213s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.213s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_libraries-extras.cmake
+[0.214s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig.cmake
+[0.214s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig-version.cmake
+[0.214s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.xml
+[0.215s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/lib/libov_eval_lib.so
+[0.215s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils/Statistics.h
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils/Loader.h
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils/Recorder.h
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/alignment
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignTrajectory.h
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignUtils.h
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/calc
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultSimulation.h
+[0.216s] -- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultTrajectory.h
+[0.219s] Invoked command in '/home/subbu/slam_ws/build/ov_eval' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_eval

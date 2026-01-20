@@ -1,0 +1,9 @@
+[0.015s] Invoking command in '/home/subbu/slam_ws/build/ov_msckf': CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_init:/home/subbu/slam_ws/install/ov_core:/home/subbu/slam_ws/install/ov_eval:/home/subbu/slam_ws/install/ov_data:/home/subbu/slam_ws/install/challenge_tools_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_init/lib:/home/subbu/slam_ws/install/ov_core/lib:/home/subbu/slam_ws/install/ov_eval/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_msckf -- -j8 -l8
+[0.077s] [ 18%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/state/Propagator.cpp.o[0m
+[0.077s] [ 18%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/state/State.cpp.o[0m
+[0.077s] [ 18%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/state/StateHelper.cpp.o[0m
+[0.077s] [ 18%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o[0m
+[0.077s] [ 22%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o[0m
+[0.077s] [ 31%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o[0m
+[0.077s] [ 31%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterHelper.cpp.o[0m
+[0.078s] [ 36%] [32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterMSCKF.cpp.o[0m

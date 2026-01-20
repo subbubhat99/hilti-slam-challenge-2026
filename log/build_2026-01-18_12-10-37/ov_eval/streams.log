@@ -1,0 +1,103 @@
+[0.019s] Invoking command in '/home/subbu/slam_ws/build/ov_eval': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_eval -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_eval
+[0.057s] -- PYTHON VERSION: 3.10.12
+[0.057s] -- PYTHON INCLUDE: /usr/include/python3.10
+[0.057s] -- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.241s] -- ROS *2* version found, building ROS2.cmake
+[0.242s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.279s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.282s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.288s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.358s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.360s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.543s] -- Found ov_core: 2.7.0 (/home/subbu/slam_ws/install/ov_core/share/ov_core/cmake)
+[0.658s] -- Configuring done
+[0.742s] -- Generating done
+[0.762s] -- Build files have been written to: /home/subbu/slam_ws/build/ov_eval
+[0.772s] Invoked command in '/home/subbu/slam_ws/build/ov_eval' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_eval -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_eval
+[0.775s] Invoking command in '/home/subbu/slam_ws/build/ov_eval': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_eval -- -j8 -l8
+[0.866s] [35m[1mConsolidate compiler generated dependencies of target ov_eval_lib[0m
+[0.896s] [  7%] [32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultSimulation.cpp.o[0m
+[0.897s] [  7%] [32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultTrajectory.cpp.o[0m
+[19.359s] [ 11%] [32m[1mLinking CXX shared library libov_eval_lib.so[0m
+[20.078s] [ 25%] Built target ov_eval_lib
+[20.135s] [ 33%] [32mBuilding CXX object CMakeFiles/format_converter.dir/src/format_converter.cpp.o[0m
+[20.136s] [ 33%] [32mBuilding CXX object CMakeFiles/error_comparison.dir/src/error_comparison.cpp.o[0m
+[20.137s] [ 48%] [32mBuilding CXX object CMakeFiles/error_singlerun.dir/src/error_singlerun.cpp.o[0m
+[20.138s] [ 48%] [32mBuilding CXX object CMakeFiles/error_simulation.dir/src/error_simulation.cpp.o[0m
+[20.138s] [ 48%] [32mBuilding CXX object CMakeFiles/timing_comparison.dir/src/timing_comparison.cpp.o[0m
+[20.140s] [ 48%] [32mBuilding CXX object CMakeFiles/error_dataset.dir/src/error_dataset.cpp.o[0m
+[20.140s] [ 55%] [32mBuilding CXX object CMakeFiles/timing_histogram.dir/src/timing_histogram.cpp.o[0m
+[20.142s] [ 55%] [32mBuilding CXX object CMakeFiles/timing_flamegraph.dir/src/timing_flamegraph.cpp.o[0m
+[29.274s] [ 59%] [32m[1mLinking CXX executable format_converter[0m
+[29.706s] [ 59%] Built target format_converter
+[29.756s] [ 62%] [32mBuilding CXX object CMakeFiles/timing_percentages.dir/src/timing_percentages.cpp.o[0m
+[30.668s] [ 66%] [32m[1mLinking CXX executable timing_histogram[0m
+[31.081s] [ 66%] Built target timing_histogram
+[31.132s] [ 70%] [32mBuilding CXX object CMakeFiles/plot_trajectories.dir/src/plot_trajectories.cpp.o[0m
+[31.994s] [ 74%] [32m[1mLinking CXX executable timing_flamegraph[0m
+[32.440s] [ 74%] Built target timing_flamegraph
+[32.578s] [ 77%] [32m[1mLinking CXX executable timing_comparison[0m
+[32.993s] [ 77%] Built target timing_comparison
+[34.684s] [ 81%] [32m[1mLinking CXX executable error_simulation[0m
+[35.068s] [ 81%] Built target error_simulation
+[38.178s] [ 85%] [32m[1mLinking CXX executable error_singlerun[0m
+[38.555s] [ 85%] Built target error_singlerun
+[42.467s] [ 88%] [32m[1mLinking CXX executable timing_percentages[0m
+[42.757s] [ 88%] Built target timing_percentages
+[43.085s] [ 92%] [32m[1mLinking CXX executable error_dataset[0m
+[43.459s] [ 92%] Built target error_dataset
+[44.370s] [ 96%] [32m[1mLinking CXX executable error_comparison[0m
+[44.707s] [ 96%] Built target error_comparison
+[46.599s] [100%] [32m[1mLinking CXX executable plot_trajectories[0m
+[46.883s] [100%] Built target plot_trajectories
+[46.900s] Invoked command in '/home/subbu/slam_ws/build/ov_eval' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_eval -- -j8 -l8
+[46.916s] Invoking command in '/home/subbu/slam_ws/build/ov_eval': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_eval
+[46.926s] -- Install configuration: ""
+[46.926s] -- Execute custom install script
+[46.927s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.sh
+[46.938s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.dsv
+[46.948s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/format_converter
+[46.959s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_comparison
+[46.972s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_dataset
+[46.985s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_singlerun
+[46.997s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_simulation
+[47.009s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_comparison
+[47.022s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_flamegraph
+[47.035s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_histogram
+[47.045s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_percentages
+[47.056s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/plot_trajectories
+[47.067s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/package_run_dependencies/ov_eval
+[47.078s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/parent_prefix_path/ov_eval
+[47.092s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.sh
+[47.103s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.dsv
+[47.114s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.sh
+[47.125s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.dsv
+[47.135s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.bash
+[47.145s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.sh
+[47.156s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.zsh
+[47.167s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.dsv
+[47.178s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.dsv
+[47.191s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/packages/ov_eval
+[47.203s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_include_directories-extras.cmake
+[47.215s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_libraries-extras.cmake
+[47.227s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig.cmake
+[47.237s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig-version.cmake
+[47.248s] -- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.xml
+[47.259s] -- Installing: /home/subbu/slam_ws/install/ov_eval/lib/libov_eval_lib.so
+[47.288s] -- Set runtime path of "/home/subbu/slam_ws/install/ov_eval/lib/libov_eval_lib.so" to ""
+[47.288s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include
+[47.288s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils
+[47.289s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils/Statistics.h
+[47.289s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils/Loader.h
+[47.289s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils/Recorder.h
+[47.293s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/alignment
+[47.293s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignTrajectory.h
+[47.293s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignUtils.h
+[47.293s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/calc
+[47.294s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultSimulation.h
+[47.294s] -- Installing: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultTrajectory.h
+[47.297s] Invoked command in '/home/subbu/slam_ws/build/ov_eval' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_eval

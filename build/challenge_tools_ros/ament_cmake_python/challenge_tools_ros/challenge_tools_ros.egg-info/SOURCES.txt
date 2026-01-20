@@ -1,0 +1,6 @@
+setup.py
+challenge_tools_ros/__init__.py
+challenge_tools_ros.egg-info/PKG-INFO
+challenge_tools_ros.egg-info/SOURCES.txt
+challenge_tools_ros.egg-info/dependency_links.txt
+challenge_tools_ros.egg-info/top_level.txt

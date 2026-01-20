@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target ov_init_lib[0m
+[  6%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImageReprojCalib.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_GenericPrior.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImuCPIv1.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/init/InertialInitializer.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/dynamic/DynamicInitializer.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/static/StaticInitializer.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/sim/SimulatorInit.cpp.o[0m

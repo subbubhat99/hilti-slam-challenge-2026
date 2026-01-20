@@ -1,0 +1,4 @@
+source;share/challenge_tools_ros/local_setup.bash
+source;share/challenge_tools_ros/local_setup.dsv
+source;share/challenge_tools_ros/local_setup.sh
+source;share/challenge_tools_ros/local_setup.zsh

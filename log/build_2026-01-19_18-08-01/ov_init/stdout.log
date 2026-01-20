@@ -1,0 +1,49 @@
+[ 62%] Built target ov_init_lib
+[ 75%] Built target test_dynamic_mle
+[ 87%] Built target test_simulation
+[100%] Built target test_dynamic_init
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_simulation
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_mle
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_init
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//display.rviz
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//dynamic.launch
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//mle.launch
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/package_run_dependencies/ov_init
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/parent_prefix_path/ov_init
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.bash
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.zsh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.dsv
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/packages/ov_init
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig-version.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.xml
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/lib/libov_init_lib.so
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/utils
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/utils/helper.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/sim
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/sim/SimulatorInit.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializerOptions.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializer.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/State_JPLQuatLocal.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImuCPIv1.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_GenericPrior.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImageReprojCalib.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/static
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/static/StaticInitializer.h
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/dynamic
+-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/dynamic/DynamicInitializer.h

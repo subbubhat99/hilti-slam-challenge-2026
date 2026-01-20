@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/subbu/slam_ws/build/challenge_tools_ros': /usr/bin/cmake /home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/challenge_tools_ros
+[0.354s] -- The C compiler identification is GNU 11.4.0
+[0.580s] -- The CXX compiler identification is GNU 11.4.0
+[0.594s] -- Detecting C compiler ABI info
+[0.698s] -- Detecting C compiler ABI info - done
+[0.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.713s] -- Detecting C compile features
+[0.715s] -- Detecting C compile features - done
+[0.728s] -- Detecting CXX compiler ABI info
+[0.842s] -- Detecting CXX compiler ABI info - done
+[0.853s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.854s] -- Detecting CXX compile features
+[0.854s] -- Detecting CXX compile features - done
+[0.872s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[0.872s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.872s]   has asked CMake to find a package configuration file provided by
+[0.872s]   "ament_cmake", but CMake did not find one.
+[0.873s] 
+[0.873s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.873s]   any of the following names:
+[0.873s] 
+[0.873s]     ament_cmakeConfig.cmake
+[0.873s]     ament_cmake-config.cmake
+[0.873s] 
+[0.873s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.873s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.873s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.873s]   has been installed.
+[0.873s] 
+[0.874s] [0m
+[0.874s] -- Configuring incomplete, errors occurred!
+[0.874s] See also "/home/subbu/slam_ws/build/challenge_tools_ros/CMakeFiles/CMakeOutput.log".
+[0.877s] Invoked command in '/home/subbu/slam_ws/build/challenge_tools_ros' returned '1': /usr/bin/cmake /home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/challenge_tools_ros

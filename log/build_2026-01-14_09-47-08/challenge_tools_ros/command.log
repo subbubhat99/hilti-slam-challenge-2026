@@ -1,0 +1,2 @@
+Invoking command in '/home/subbu/slam_ws/build/challenge_tools_ros': /usr/bin/cmake /home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/challenge_tools_ros
+Invoked command in '/home/subbu/slam_ws/build/challenge_tools_ros' returned '1': /usr/bin/cmake /home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/challenge_tools_ros

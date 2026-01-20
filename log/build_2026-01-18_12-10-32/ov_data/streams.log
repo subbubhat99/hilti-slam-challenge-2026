@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_data -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_data
+[0.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.217s] -- ROS *2* version found
+[0.307s] -- Configuring done
+[0.313s] -- Generating done
+[0.316s] -- Build files have been written to: /home/subbu/slam_ws/build/ov_data
+[0.319s] Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_data -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_data
+[0.321s] Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_data -- -j8 -l8
+[0.382s] Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_data -- -j8 -l8
+[0.400s] Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_data
+[0.410s] -- Install configuration: ""
+[0.410s] -- Execute custom install script
+[0.411s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/package_run_dependencies/ov_data
+[0.412s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/parent_prefix_path/ov_data
+[0.413s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/ament_prefix_path.sh
+[0.413s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/ament_prefix_path.dsv
+[0.413s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/path.sh
+[0.414s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/path.dsv
+[0.414s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.bash
+[0.414s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.sh
+[0.414s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.zsh
+[0.415s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.dsv
+[0.415s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/package.dsv
+[0.428s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/packages/ov_data
+[0.429s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/cmake/ov_dataConfig.cmake
+[0.429s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/cmake/ov_dataConfig-version.cmake
+[0.429s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/package.xml
+[0.432s] Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_data

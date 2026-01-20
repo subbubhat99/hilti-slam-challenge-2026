@@ -1,0 +1,6 @@
+Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_data -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_data
+Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_data -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_data
+Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_data -- -j8 -l8
+Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_data -- -j8 -l8
+Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_data
+Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_data

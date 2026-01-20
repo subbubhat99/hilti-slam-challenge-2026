@@ -1,0 +1,54 @@
+[0.022s] Invoking command in '/home/subbu/slam_ws/build/ov_init': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/home/subbu/slam_ws/install/challenge_tools_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_init -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_init
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.215s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.338s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.490s] -- Detecting CXX compiler ABI info - done
+[0.503s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.504s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.544s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[0.809s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem thread date_time 
+[0.818s] -- Found Threads: TRUE  
+[0.819s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.830s] -- Found required Ceres dependency: glog
+[0.831s] -- Found required Ceres dependency: gflags
+[0.832s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.832s] -- OPENCV: 4.5.4 | BOOST: 1.74.0 | CERES: 2.0.0
+[0.847s] -- PYTHON VERSION: 3.10.12
+[0.847s] -- PYTHON INCLUDE: /usr/include/python3.10
+[0.847s] -- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.107s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.226s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.276s] -- ROS *2* version found, building ROS2.cmake
+[1.280s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.347s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.356s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.374s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.522s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.529s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.690s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.727s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.786s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.902s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.986s] -- Found ov_core: 2.7.0 (/home/subbu/slam_ws/install/ov_core/share/ov_core/cmake)
+[2.153s] -- Configuring done
+[2.235s] -- Generating done
+[2.258s] -- Build files have been written to: /home/subbu/slam_ws/build/ov_init
+[2.278s] Invoked command in '/home/subbu/slam_ws/build/ov_init' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/home/subbu/slam_ws/install/challenge_tools_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_init -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_init
+[2.281s] Invoking command in '/home/subbu/slam_ws/build/ov_init': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/home/subbu/slam_ws/install/challenge_tools_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_init -- -j8 -l8
+[2.418s] [  6%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/dummy.cpp.o[0m
+[2.419s] [ 12%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_GenericPrior.cpp.o[0m
+[2.421s] [ 18%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImageReprojCalib.cpp.o[0m
+[2.434s] [ 25%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/State_JPLQuatLocal.cpp.o[0m
+[2.435s] [ 31%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImuCPIv1.cpp.o[0m
+[2.436s] [ 37%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/init/InertialInitializer.cpp.o[0m
+[2.440s] [ 43%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/dynamic/DynamicInitializer.cpp.o[0m
+[2.458s] [ 50%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/static/StaticInitializer.cpp.o[0m
+[2.525s] [ 56%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/sim/SimulatorInit.cpp.o[0m

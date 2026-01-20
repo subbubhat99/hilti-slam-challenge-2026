@@ -1,0 +1,41 @@
+[0.026s] Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_data -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_data
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.374s] -- Detecting C compiler ABI info
+[0.488s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.512s] -- Detecting C compile features
+[0.513s] -- Detecting C compile features - done
+[0.521s] -- Detecting CXX compiler ABI info
+[0.653s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.954s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.061s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.102s] -- ROS *2* version found
+[1.214s] -- Configuring done
+[1.221s] -- Generating done
+[1.225s] -- Build files have been written to: /home/subbu/slam_ws/build/ov_data
+[1.234s] Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/subbu/slam_ws/src/open_vins/ov_data -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_data
+[1.238s] Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_data -- -j8 -l8
+[1.298s] Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_data -- -j8 -l8
+[1.317s] Invoking command in '/home/subbu/slam_ws/build/ov_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_data
+[1.328s] -- Install configuration: ""
+[1.329s] -- Execute custom install script
+[1.330s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/package_run_dependencies/ov_data
+[1.347s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/parent_prefix_path/ov_data
+[1.362s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/ament_prefix_path.sh
+[1.376s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/ament_prefix_path.dsv
+[1.389s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/path.sh
+[1.402s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/path.dsv
+[1.415s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.bash
+[1.429s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.sh
+[1.443s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.zsh
+[1.456s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.dsv
+[1.470s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/package.dsv
+[1.483s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/packages/ov_data
+[1.496s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/cmake/ov_dataConfig.cmake
+[1.509s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/cmake/ov_dataConfig-version.cmake
+[1.523s] -- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/package.xml
+[1.541s] Invoked command in '/home/subbu/slam_ws/build/ov_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_data

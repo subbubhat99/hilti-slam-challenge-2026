@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e8602041fe9d23648c2f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ov_init",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ov_init_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ov_init_lib-6c9ed7fe31d54e088ad2.json",
+					"name" : "ov_init_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ov_init_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ov_init_uninstall-9b946f521d225323c73d.json",
+					"name" : "ov_init_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dynamic_init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dynamic_init-f97103331c0b0b94499f.json",
+					"name" : "test_dynamic_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_dynamic_mle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_dynamic_mle-2553ec5331685e8dc143.json",
+					"name" : "test_dynamic_mle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_simulation-d944a469e8258917fd69.json",
+					"name" : "test_simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-78799038ec0d8c27d4c0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/subbu/slam_ws/build/ov_init",
+		"source" : "/home/subbu/slam_ws/src/open_vins/ov_init"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

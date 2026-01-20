@@ -1,0 +1,115 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_eigen: 0.25.17 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/subbu/slam_ws/build/challenge_tools_ros
+Built target ament_cmake_python_symlink_challenge_tools_ros
+running egg_info
+writing challenge_tools_ros.egg-info/PKG-INFO
+writing dependency_links to challenge_tools_ros.egg-info/dependency_links.txt
+writing top-level names to challenge_tools_ros.egg-info/top_level.txt
+reading manifest file 'challenge_tools_ros.egg-info/SOURCES.txt'
+writing manifest file 'challenge_tools_ros.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_challenge_tools_ros_egg
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/pythonpath.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros/README.md
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros/__init__.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/map_server.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/apply_image_mask.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/image_conversion_node.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/rotate_image_180.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/groundtruth_converter.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/groundtruth_server.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/challenge_tools_lib.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/ros2bag_to_euroc.py
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/ament_index/resource_index/package_run_dependencies/challenge_tools_ros
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/ament_index/resource_index/parent_prefix_path/challenge_tools_ros
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/path.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/path.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.bash
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.sh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.zsh
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.dsv
+-- Symlinking: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/package.dsv
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/ament_index/resource_index/packages/challenge_tools_ros
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/cmake/challenge_tools_rosConfig.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/cmake/challenge_tools_rosConfig-version.cmake
+-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/package.xml
+Listing '/home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros'...
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/mask_cam0.png
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/kalibr_imucam_chain.yaml
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/mask_cam1.png
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/kalibr_imu_chain.yaml
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/estimator_config.yaml
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/procman.pmd
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz/rviz_ov.rviz
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz/rviz_map_server.rviz
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz/rviz_ov_and_map_server.rviz
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam/equirectangular.yaml
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam/orb_vocab.fbow
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam/fisheye.yaml
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/run_openvins.launch.py
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/apply_image_mask_dual.launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/rviz_map_server.launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/run_stella_vslam.launch.py
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/rviz_ov_and_map_server.launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/groundtruth_server.launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/map_server.launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/rviz_ov.launch
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans/floor_2.png
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans/floor_1.png
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans/floor_UG.png
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-05-05_run_1
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-05-05_run_1/aligned_frame_trajectory_3d_2d_gt.bin
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-05-05_run_1/gt_poses.csv
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_1_2025-05-05_run_1
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_1_2025-05-05_run_1/aligned_frame_trajectory_3d_2d_gt.bin
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_1_2025-05-05_run_1/gt_poses.csv
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_1
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_1/aligned_frame_trajectory_3d_2d_gt.bin
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_1/gt_poses.csv
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_UG_2025-10-16_run_1
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_UG_2025-10-16_run_1/aligned_frame_trajectory_3d_2d_gt.bin
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_UG_2025-10-16_run_1/gt_poses.csv
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_2
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_2/aligned_frame_trajectory_3d_2d_gt.bin
+-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_2/gt_poses.csv

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a457d9d47acad044ac50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ov_msckf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ov_msckf_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ov_msckf_lib-21b9f6eefaf7ebca0e35.json",
+					"name" : "ov_msckf_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ov_msckf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ov_msckf_uninstall-37c9cfe6f87a9963b7fe.json",
+					"name" : "ov_msckf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_simulation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_simulation-309c78c97830351c47dc.json",
+					"name" : "run_simulation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_subscribe_msckf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_subscribe_msckf-0a9d652d3171f99e97a4.json",
+					"name" : "run_subscribe_msckf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sim_meas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sim_meas-eb0c47933e76416e4774.json",
+					"name" : "test_sim_meas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_sim_repeat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_sim_repeat-bdf9ffb416b07d939fc6.json",
+					"name" : "test_sim_repeat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ce91a23d6567e24fb5b2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/subbu/slam_ws/build/ov_msckf",
+		"source" : "/home/subbu/slam_ws/src/open_vins/ov_msckf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

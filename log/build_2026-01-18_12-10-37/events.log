@@ -1,0 +1,586 @@
+[0.000000] (-) TimerEvent: {}
+[0.000195] (-) JobUnselected: {'identifier': 'challenge_tools_ros'}
+[0.000273] (-) JobUnselected: {'identifier': 'ov_core'}
+[0.000320] (-) JobUnselected: {'identifier': 'ov_data'}
+[0.000347] (-) JobUnselected: {'identifier': 'ov_init'}
+[0.000370] (-) JobUnselected: {'identifier': 'ov_msckf'}
+[0.000396] (ov_eval) JobQueued: {'identifier': 'ov_eval', 'dependencies': OrderedDict([('ov_core', '/home/subbu/slam_ws/install/ov_core')])}
+[0.000426] (ov_eval) JobStarted: {'identifier': 'ov_eval'}
+[0.012189] (ov_eval) JobProgress: {'identifier': 'ov_eval', 'progress': 'cmake'}
+[0.014920] (ov_eval) Command: {'cmd': ['/usr/bin/cmake', '/home/subbu/slam_ws/src/open_vins/ov_eval', '-DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/ov_eval'], 'cwd': '/home/subbu/slam_ws/build/ov_eval', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1736,unix/orob-sub-hp:/tmp/.ICE-unix/1736'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/432d0c7a_fa22_4f90_934c_ba0258e07bd4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A330I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_eval'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[0.057156] (ov_eval) StdoutLine: {'line': b'-- PYTHON VERSION: 3.10.12\n'}
+[0.057426] (ov_eval) StdoutLine: {'line': b'-- PYTHON INCLUDE: /usr/include/python3.10\n'}
+[0.057580] (ov_eval) StdoutLine: {'line': b'-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.098627] (-) TimerEvent: {}
+[0.198955] (-) TimerEvent: {}
+[0.228378] (ov_eval) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.240865] (ov_eval) StdoutLine: {'line': b'-- ROS *2* version found, building ROS2.cmake\n'}
+[0.241890] (ov_eval) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.279030] (ov_eval) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.281997] (ov_eval) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.288194] (ov_eval) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.299214] (-) TimerEvent: {}
+[0.302423] (ov_eval) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.316337] (ov_eval) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.358515] (ov_eval) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.360132] (ov_eval) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399366] (-) TimerEvent: {}
+[0.478168] (ov_eval) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499530] (-) TimerEvent: {}
+[0.543310] (ov_eval) StdoutLine: {'line': b'-- Found ov_core: 2.7.0 (/home/subbu/slam_ws/install/ov_core/share/ov_core/cmake)\n'}
+[0.599673] (-) TimerEvent: {}
+[0.658328] (ov_eval) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.699824] (-) TimerEvent: {}
+[0.742078] (ov_eval) StdoutLine: {'line': b'-- Generating done\n'}
+[0.762759] (ov_eval) StdoutLine: {'line': b'-- Build files have been written to: /home/subbu/slam_ws/build/ov_eval\n'}
+[0.772037] (ov_eval) CommandEnded: {'returncode': 0}
+[0.773001] (ov_eval) JobProgress: {'identifier': 'ov_eval', 'progress': 'build'}
+[0.775007] (ov_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/ov_eval', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/ov_eval', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1736,unix/orob-sub-hp:/tmp/.ICE-unix/1736'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/432d0c7a_fa22_4f90_934c_ba0258e07bd4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A330I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_eval'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[0.799947] (-) TimerEvent: {}
+[0.866143] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ov_eval_lib\x1b[0m\n'}
+[0.896573] (ov_eval) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultSimulation.cpp.o\x1b[0m\n'}
+[0.896954] (ov_eval) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/ov_eval_lib.dir/src/calc/ResultTrajectory.cpp.o\x1b[0m\n'}
+[0.900052] (-) TimerEvent: {}
+[1.000501] (-) TimerEvent: {}
+[1.100883] (-) TimerEvent: {}
+[1.201263] (-) TimerEvent: {}
+[1.301554] (-) TimerEvent: {}
+[1.401973] (-) TimerEvent: {}
+[1.502356] (-) TimerEvent: {}
+[1.602769] (-) TimerEvent: {}
+[1.703129] (-) TimerEvent: {}
+[1.803520] (-) TimerEvent: {}
+[1.903958] (-) TimerEvent: {}
+[2.004353] (-) TimerEvent: {}
+[2.104822] (-) TimerEvent: {}
+[2.205242] (-) TimerEvent: {}
+[2.305644] (-) TimerEvent: {}
+[2.406025] (-) TimerEvent: {}
+[2.506395] (-) TimerEvent: {}
+[2.606836] (-) TimerEvent: {}
+[2.707227] (-) TimerEvent: {}
+[2.807636] (-) TimerEvent: {}
+[2.908060] (-) TimerEvent: {}
+[3.008478] (-) TimerEvent: {}
+[3.108879] (-) TimerEvent: {}
+[3.209255] (-) TimerEvent: {}
+[3.309664] (-) TimerEvent: {}
+[3.410046] (-) TimerEvent: {}
+[3.510413] (-) TimerEvent: {}
+[3.610900] (-) TimerEvent: {}
+[3.711300] (-) TimerEvent: {}
+[3.811790] (-) TimerEvent: {}
+[3.912184] (-) TimerEvent: {}
+[4.012553] (-) TimerEvent: {}
+[4.112905] (-) TimerEvent: {}
+[4.213316] (-) TimerEvent: {}
+[4.313767] (-) TimerEvent: {}
+[4.414139] (-) TimerEvent: {}
+[4.514519] (-) TimerEvent: {}
+[4.614909] (-) TimerEvent: {}
+[4.715330] (-) TimerEvent: {}
+[4.815859] (-) TimerEvent: {}
+[4.916242] (-) TimerEvent: {}
+[5.016728] (-) TimerEvent: {}
+[5.117133] (-) TimerEvent: {}
+[5.217562] (-) TimerEvent: {}
+[5.317979] (-) TimerEvent: {}
+[5.418399] (-) TimerEvent: {}
+[5.518881] (-) TimerEvent: {}
+[5.619311] (-) TimerEvent: {}
+[5.719730] (-) TimerEvent: {}
+[5.820159] (-) TimerEvent: {}
+[5.920629] (-) TimerEvent: {}
+[6.021034] (-) TimerEvent: {}
+[6.121513] (-) TimerEvent: {}
+[6.221958] (-) TimerEvent: {}
+[6.322351] (-) TimerEvent: {}
+[6.422829] (-) TimerEvent: {}
+[6.523187] (-) TimerEvent: {}
+[6.623553] (-) TimerEvent: {}
+[6.723917] (-) TimerEvent: {}
+[6.824287] (-) TimerEvent: {}
+[6.924683] (-) TimerEvent: {}
+[7.025084] (-) TimerEvent: {}
+[7.125493] (-) TimerEvent: {}
+[7.225910] (-) TimerEvent: {}
+[7.326323] (-) TimerEvent: {}
+[7.426750] (-) TimerEvent: {}
+[7.527117] (-) TimerEvent: {}
+[7.627511] (-) TimerEvent: {}
+[7.727899] (-) TimerEvent: {}
+[7.828288] (-) TimerEvent: {}
+[7.928757] (-) TimerEvent: {}
+[8.029164] (-) TimerEvent: {}
+[8.129603] (-) TimerEvent: {}
+[8.230015] (-) TimerEvent: {}
+[8.330407] (-) TimerEvent: {}
+[8.430782] (-) TimerEvent: {}
+[8.531157] (-) TimerEvent: {}
+[8.631554] (-) TimerEvent: {}
+[8.731904] (-) TimerEvent: {}
+[8.832279] (-) TimerEvent: {}
+[8.932687] (-) TimerEvent: {}
+[9.033118] (-) TimerEvent: {}
+[9.133548] (-) TimerEvent: {}
+[9.233958] (-) TimerEvent: {}
+[9.334328] (-) TimerEvent: {}
+[9.434763] (-) TimerEvent: {}
+[9.535184] (-) TimerEvent: {}
+[9.635628] (-) TimerEvent: {}
+[9.736029] (-) TimerEvent: {}
+[9.836483] (-) TimerEvent: {}
+[9.937089] (-) TimerEvent: {}
+[10.037561] (-) TimerEvent: {}
+[10.137997] (-) TimerEvent: {}
+[10.238406] (-) TimerEvent: {}
+[10.338898] (-) TimerEvent: {}
+[10.439293] (-) TimerEvent: {}
+[10.539665] (-) TimerEvent: {}
+[10.640066] (-) TimerEvent: {}
+[10.740493] (-) TimerEvent: {}
+[10.840906] (-) TimerEvent: {}
+[10.941317] (-) TimerEvent: {}
+[11.041681] (-) TimerEvent: {}
+[11.142093] (-) TimerEvent: {}
+[11.242535] (-) TimerEvent: {}
+[11.342949] (-) TimerEvent: {}
+[11.443314] (-) TimerEvent: {}
+[11.543667] (-) TimerEvent: {}
+[11.644028] (-) TimerEvent: {}
+[11.744394] (-) TimerEvent: {}
+[11.844744] (-) TimerEvent: {}
+[11.945113] (-) TimerEvent: {}
+[12.045500] (-) TimerEvent: {}
+[12.145897] (-) TimerEvent: {}
+[12.246297] (-) TimerEvent: {}
+[12.346673] (-) TimerEvent: {}
+[12.447074] (-) TimerEvent: {}
+[12.547472] (-) TimerEvent: {}
+[12.647870] (-) TimerEvent: {}
+[12.748266] (-) TimerEvent: {}
+[12.848625] (-) TimerEvent: {}
+[12.948994] (-) TimerEvent: {}
+[13.049369] (-) TimerEvent: {}
+[13.149781] (-) TimerEvent: {}
+[13.250157] (-) TimerEvent: {}
+[13.350529] (-) TimerEvent: {}
+[13.450906] (-) TimerEvent: {}
+[13.551290] (-) TimerEvent: {}
+[13.651627] (-) TimerEvent: {}
+[13.751995] (-) TimerEvent: {}
+[13.852359] (-) TimerEvent: {}
+[13.952760] (-) TimerEvent: {}
+[14.053165] (-) TimerEvent: {}
+[14.153542] (-) TimerEvent: {}
+[14.253908] (-) TimerEvent: {}
+[14.354265] (-) TimerEvent: {}
+[14.454611] (-) TimerEvent: {}
+[14.554959] (-) TimerEvent: {}
+[14.655314] (-) TimerEvent: {}
+[14.755663] (-) TimerEvent: {}
+[14.856047] (-) TimerEvent: {}
+[14.956579] (-) TimerEvent: {}
+[15.056989] (-) TimerEvent: {}
+[15.157371] (-) TimerEvent: {}
+[15.257815] (-) TimerEvent: {}
+[15.358201] (-) TimerEvent: {}
+[15.458542] (-) TimerEvent: {}
+[15.558907] (-) TimerEvent: {}
+[15.659283] (-) TimerEvent: {}
+[15.759638] (-) TimerEvent: {}
+[15.860034] (-) TimerEvent: {}
+[15.960399] (-) TimerEvent: {}
+[16.060839] (-) TimerEvent: {}
+[16.161236] (-) TimerEvent: {}
+[16.261626] (-) TimerEvent: {}
+[16.362024] (-) TimerEvent: {}
+[16.462409] (-) TimerEvent: {}
+[16.562803] (-) TimerEvent: {}
+[16.663188] (-) TimerEvent: {}
+[16.763573] (-) TimerEvent: {}
+[16.863944] (-) TimerEvent: {}
+[16.964279] (-) TimerEvent: {}
+[17.064654] (-) TimerEvent: {}
+[17.165049] (-) TimerEvent: {}
+[17.265430] (-) TimerEvent: {}
+[17.365834] (-) TimerEvent: {}
+[17.466226] (-) TimerEvent: {}
+[17.566605] (-) TimerEvent: {}
+[17.667005] (-) TimerEvent: {}
+[17.767418] (-) TimerEvent: {}
+[17.867836] (-) TimerEvent: {}
+[17.968241] (-) TimerEvent: {}
+[18.068621] (-) TimerEvent: {}
+[18.169017] (-) TimerEvent: {}
+[18.269376] (-) TimerEvent: {}
+[18.369766] (-) TimerEvent: {}
+[18.470131] (-) TimerEvent: {}
+[18.570544] (-) TimerEvent: {}
+[18.670934] (-) TimerEvent: {}
+[18.771288] (-) TimerEvent: {}
+[18.871724] (-) TimerEvent: {}
+[18.972083] (-) TimerEvent: {}
+[19.072481] (-) TimerEvent: {}
+[19.172878] (-) TimerEvent: {}
+[19.273235] (-) TimerEvent: {}
+[19.358933] (ov_eval) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libov_eval_lib.so\x1b[0m\n'}
+[19.373592] (-) TimerEvent: {}
+[19.473996] (-) TimerEvent: {}
+[19.574418] (-) TimerEvent: {}
+[19.674914] (-) TimerEvent: {}
+[19.775288] (-) TimerEvent: {}
+[19.875640] (-) TimerEvent: {}
+[19.976015] (-) TimerEvent: {}
+[20.078025] (ov_eval) StdoutLine: {'line': b'[ 25%] Built target ov_eval_lib\n'}
+[20.078223] (-) TimerEvent: {}
+[20.135638] (ov_eval) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/format_converter.dir/src/format_converter.cpp.o\x1b[0m\n'}
+[20.136072] (ov_eval) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/error_comparison.dir/src/error_comparison.cpp.o\x1b[0m\n'}
+[20.137376] (ov_eval) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/error_singlerun.dir/src/error_singlerun.cpp.o\x1b[0m\n'}
+[20.137770] (ov_eval) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/error_simulation.dir/src/error_simulation.cpp.o\x1b[0m\n'}
+[20.138164] (ov_eval) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/timing_comparison.dir/src/timing_comparison.cpp.o\x1b[0m\n'}
+[20.139722] (ov_eval) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/error_dataset.dir/src/error_dataset.cpp.o\x1b[0m\n'}
+[20.140291] (ov_eval) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/timing_histogram.dir/src/timing_histogram.cpp.o\x1b[0m\n'}
+[20.142468] (ov_eval) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/timing_flamegraph.dir/src/timing_flamegraph.cpp.o\x1b[0m\n'}
+[20.178922] (-) TimerEvent: {}
+[20.280713] (-) TimerEvent: {}
+[20.381272] (-) TimerEvent: {}
+[20.482727] (-) TimerEvent: {}
+[20.583222] (-) TimerEvent: {}
+[20.684710] (-) TimerEvent: {}
+[20.785192] (-) TimerEvent: {}
+[20.886684] (-) TimerEvent: {}
+[20.989550] (-) TimerEvent: {}
+[21.090084] (-) TimerEvent: {}
+[21.190532] (-) TimerEvent: {}
+[21.290990] (-) TimerEvent: {}
+[21.391458] (-) TimerEvent: {}
+[21.491874] (-) TimerEvent: {}
+[21.594530] (-) TimerEvent: {}
+[21.694970] (-) TimerEvent: {}
+[21.795405] (-) TimerEvent: {}
+[21.895840] (-) TimerEvent: {}
+[21.996275] (-) TimerEvent: {}
+[22.097353] (-) TimerEvent: {}
+[22.198772] (-) TimerEvent: {}
+[22.299375] (-) TimerEvent: {}
+[22.401864] (-) TimerEvent: {}
+[22.502529] (-) TimerEvent: {}
+[22.602990] (-) TimerEvent: {}
+[22.703466] (-) TimerEvent: {}
+[22.805536] (-) TimerEvent: {}
+[22.906001] (-) TimerEvent: {}
+[23.006477] (-) TimerEvent: {}
+[23.106972] (-) TimerEvent: {}
+[23.210531] (-) TimerEvent: {}
+[23.311006] (-) TimerEvent: {}
+[23.411480] (-) TimerEvent: {}
+[23.511921] (-) TimerEvent: {}
+[23.612369] (-) TimerEvent: {}
+[23.712805] (-) TimerEvent: {}
+[23.813230] (-) TimerEvent: {}
+[23.917530] (-) TimerEvent: {}
+[24.017960] (-) TimerEvent: {}
+[24.118394] (-) TimerEvent: {}
+[24.218832] (-) TimerEvent: {}
+[24.319251] (-) TimerEvent: {}
+[24.419694] (-) TimerEvent: {}
+[24.520110] (-) TimerEvent: {}
+[24.620532] (-) TimerEvent: {}
+[24.720976] (-) TimerEvent: {}
+[24.821401] (-) TimerEvent: {}
+[24.921855] (-) TimerEvent: {}
+[25.025527] (-) TimerEvent: {}
+[25.125976] (-) TimerEvent: {}
+[25.226423] (-) TimerEvent: {}
+[25.326913] (-) TimerEvent: {}
+[25.427532] (-) TimerEvent: {}
+[25.527959] (-) TimerEvent: {}
+[25.628389] (-) TimerEvent: {}
+[25.728833] (-) TimerEvent: {}
+[25.830544] (-) TimerEvent: {}
+[25.930973] (-) TimerEvent: {}
+[26.031406] (-) TimerEvent: {}
+[26.135539] (-) TimerEvent: {}
+[26.235971] (-) TimerEvent: {}
+[26.336414] (-) TimerEvent: {}
+[26.436854] (-) TimerEvent: {}
+[26.537297] (-) TimerEvent: {}
+[26.637762] (-) TimerEvent: {}
+[26.738216] (-) TimerEvent: {}
+[26.838668] (-) TimerEvent: {}
+[26.939122] (-) TimerEvent: {}
+[27.040536] (-) TimerEvent: {}
+[27.141018] (-) TimerEvent: {}
+[27.241514] (-) TimerEvent: {}
+[27.345535] (-) TimerEvent: {}
+[27.445989] (-) TimerEvent: {}
+[27.546473] (-) TimerEvent: {}
+[27.646932] (-) TimerEvent: {}
+[27.747384] (-) TimerEvent: {}
+[27.847881] (-) TimerEvent: {}
+[27.948364] (-) TimerEvent: {}
+[28.048861] (-) TimerEvent: {}
+[28.151532] (-) TimerEvent: {}
+[28.251988] (-) TimerEvent: {}
+[28.352474] (-) TimerEvent: {}
+[28.452924] (-) TimerEvent: {}
+[28.553400] (-) TimerEvent: {}
+[28.655549] (-) TimerEvent: {}
+[28.756028] (-) TimerEvent: {}
+[28.856475] (-) TimerEvent: {}
+[28.956892] (-) TimerEvent: {}
+[29.058535] (-) TimerEvent: {}
+[29.158999] (-) TimerEvent: {}
+[29.259475] (-) TimerEvent: {}
+[29.274621] (ov_eval) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable format_converter\x1b[0m\n'}
+[29.359594] (-) TimerEvent: {}
+[29.460041] (-) TimerEvent: {}
+[29.563824] (-) TimerEvent: {}
+[29.664305] (-) TimerEvent: {}
+[29.706030] (ov_eval) StdoutLine: {'line': b'[ 59%] Built target format_converter\n'}
+[29.755870] (ov_eval) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/timing_percentages.dir/src/timing_percentages.cpp.o\x1b[0m\n'}
+[29.764450] (-) TimerEvent: {}
+[29.864911] (-) TimerEvent: {}
+[29.965402] (-) TimerEvent: {}
+[30.065906] (-) TimerEvent: {}
+[30.167542] (-) TimerEvent: {}
+[30.268028] (-) TimerEvent: {}
+[30.368479] (-) TimerEvent: {}
+[30.469660] (-) TimerEvent: {}
+[30.570168] (-) TimerEvent: {}
+[30.668100] (ov_eval) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable timing_histogram\x1b[0m\n'}
+[30.670312] (-) TimerEvent: {}
+[30.770841] (-) TimerEvent: {}
+[30.874789] (-) TimerEvent: {}
+[30.975400] (-) TimerEvent: {}
+[31.075902] (-) TimerEvent: {}
+[31.080993] (ov_eval) StdoutLine: {'line': b'[ 66%] Built target timing_histogram\n'}
+[31.131857] (ov_eval) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/plot_trajectories.dir/src/plot_trajectories.cpp.o\x1b[0m\n'}
+[31.176027] (-) TimerEvent: {}
+[31.280018] (-) TimerEvent: {}
+[31.380484] (-) TimerEvent: {}
+[31.480971] (-) TimerEvent: {}
+[31.581539] (-) TimerEvent: {}
+[31.682011] (-) TimerEvent: {}
+[31.782483] (-) TimerEvent: {}
+[31.882944] (-) TimerEvent: {}
+[31.983413] (-) TimerEvent: {}
+[31.994644] (ov_eval) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable timing_flamegraph\x1b[0m\n'}
+[32.083540] (-) TimerEvent: {}
+[32.184015] (-) TimerEvent: {}
+[32.284496] (-) TimerEvent: {}
+[32.384967] (-) TimerEvent: {}
+[32.439760] (ov_eval) StdoutLine: {'line': b'[ 74%] Built target timing_flamegraph\n'}
+[32.485117] (-) TimerEvent: {}
+[32.578606] (ov_eval) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable timing_comparison\x1b[0m\n'}
+[32.585257] (-) TimerEvent: {}
+[32.688531] (-) TimerEvent: {}
+[32.788962] (-) TimerEvent: {}
+[32.889410] (-) TimerEvent: {}
+[32.989844] (-) TimerEvent: {}
+[32.993615] (ov_eval) StdoutLine: {'line': b'[ 77%] Built target timing_comparison\n'}
+[33.090013] (-) TimerEvent: {}
+[33.190492] (-) TimerEvent: {}
+[33.290909] (-) TimerEvent: {}
+[33.393534] (-) TimerEvent: {}
+[33.493965] (-) TimerEvent: {}
+[33.594416] (-) TimerEvent: {}
+[33.694860] (-) TimerEvent: {}
+[33.795307] (-) TimerEvent: {}
+[33.895833] (-) TimerEvent: {}
+[33.997534] (-) TimerEvent: {}
+[34.097983] (-) TimerEvent: {}
+[34.198354] (-) TimerEvent: {}
+[34.298811] (-) TimerEvent: {}
+[34.399254] (-) TimerEvent: {}
+[34.499728] (-) TimerEvent: {}
+[34.600197] (-) TimerEvent: {}
+[34.684188] (ov_eval) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable error_simulation\x1b[0m\n'}
+[34.700342] (-) TimerEvent: {}
+[34.800863] (-) TimerEvent: {}
+[34.901339] (-) TimerEvent: {}
+[35.001771] (-) TimerEvent: {}
+[35.068288] (ov_eval) StdoutLine: {'line': b'[ 81%] Built target error_simulation\n'}
+[35.101979] (-) TimerEvent: {}
+[35.202395] (-) TimerEvent: {}
+[35.302837] (-) TimerEvent: {}
+[35.403269] (-) TimerEvent: {}
+[35.503726] (-) TimerEvent: {}
+[35.604155] (-) TimerEvent: {}
+[35.704610] (-) TimerEvent: {}
+[35.805030] (-) TimerEvent: {}
+[35.905475] (-) TimerEvent: {}
+[36.005906] (-) TimerEvent: {}
+[36.106337] (-) TimerEvent: {}
+[36.206782] (-) TimerEvent: {}
+[36.307236] (-) TimerEvent: {}
+[36.407672] (-) TimerEvent: {}
+[36.508084] (-) TimerEvent: {}
+[36.608501] (-) TimerEvent: {}
+[36.708909] (-) TimerEvent: {}
+[36.809333] (-) TimerEvent: {}
+[36.909794] (-) TimerEvent: {}
+[37.010245] (-) TimerEvent: {}
+[37.110681] (-) TimerEvent: {}
+[37.211116] (-) TimerEvent: {}
+[37.311518] (-) TimerEvent: {}
+[37.411918] (-) TimerEvent: {}
+[37.512374] (-) TimerEvent: {}
+[37.612810] (-) TimerEvent: {}
+[37.713219] (-) TimerEvent: {}
+[37.813665] (-) TimerEvent: {}
+[37.914058] (-) TimerEvent: {}
+[38.014535] (-) TimerEvent: {}
+[38.114975] (-) TimerEvent: {}
+[38.178081] (ov_eval) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable error_singlerun\x1b[0m\n'}
+[38.215107] (-) TimerEvent: {}
+[38.315536] (-) TimerEvent: {}
+[38.415941] (-) TimerEvent: {}
+[38.516372] (-) TimerEvent: {}
+[38.554744] (ov_eval) StdoutLine: {'line': b'[ 85%] Built target error_singlerun\n'}
+[38.616532] (-) TimerEvent: {}
+[38.716959] (-) TimerEvent: {}
+[38.817375] (-) TimerEvent: {}
+[38.917827] (-) TimerEvent: {}
+[39.018262] (-) TimerEvent: {}
+[39.118701] (-) TimerEvent: {}
+[39.219124] (-) TimerEvent: {}
+[39.319569] (-) TimerEvent: {}
+[39.420003] (-) TimerEvent: {}
+[39.520431] (-) TimerEvent: {}
+[39.620887] (-) TimerEvent: {}
+[39.721329] (-) TimerEvent: {}
+[39.821793] (-) TimerEvent: {}
+[39.922262] (-) TimerEvent: {}
+[40.022753] (-) TimerEvent: {}
+[40.123266] (-) TimerEvent: {}
+[40.223746] (-) TimerEvent: {}
+[40.324209] (-) TimerEvent: {}
+[40.424680] (-) TimerEvent: {}
+[40.525122] (-) TimerEvent: {}
+[40.625557] (-) TimerEvent: {}
+[40.725987] (-) TimerEvent: {}
+[40.826455] (-) TimerEvent: {}
+[40.926884] (-) TimerEvent: {}
+[41.027325] (-) TimerEvent: {}
+[41.127806] (-) TimerEvent: {}
+[41.228220] (-) TimerEvent: {}
+[41.328644] (-) TimerEvent: {}
+[41.429133] (-) TimerEvent: {}
+[41.529621] (-) TimerEvent: {}
+[41.630065] (-) TimerEvent: {}
+[41.730481] (-) TimerEvent: {}
+[41.830874] (-) TimerEvent: {}
+[41.931287] (-) TimerEvent: {}
+[42.031766] (-) TimerEvent: {}
+[42.132172] (-) TimerEvent: {}
+[42.232595] (-) TimerEvent: {}
+[42.333063] (-) TimerEvent: {}
+[42.433518] (-) TimerEvent: {}
+[42.467139] (ov_eval) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable timing_percentages\x1b[0m\n'}
+[42.533683] (-) TimerEvent: {}
+[42.634180] (-) TimerEvent: {}
+[42.734664] (-) TimerEvent: {}
+[42.757487] (ov_eval) StdoutLine: {'line': b'[ 88%] Built target timing_percentages\n'}
+[42.834822] (-) TimerEvent: {}
+[42.935357] (-) TimerEvent: {}
+[43.035761] (-) TimerEvent: {}
+[43.085369] (ov_eval) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable error_dataset\x1b[0m\n'}
+[43.135903] (-) TimerEvent: {}
+[43.236310] (-) TimerEvent: {}
+[43.336733] (-) TimerEvent: {}
+[43.437164] (-) TimerEvent: {}
+[43.458981] (ov_eval) StdoutLine: {'line': b'[ 92%] Built target error_dataset\n'}
+[43.537325] (-) TimerEvent: {}
+[43.637792] (-) TimerEvent: {}
+[43.738209] (-) TimerEvent: {}
+[43.838713] (-) TimerEvent: {}
+[43.939128] (-) TimerEvent: {}
+[44.039579] (-) TimerEvent: {}
+[44.139973] (-) TimerEvent: {}
+[44.240388] (-) TimerEvent: {}
+[44.340821] (-) TimerEvent: {}
+[44.370606] (ov_eval) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable error_comparison\x1b[0m\n'}
+[44.441018] (-) TimerEvent: {}
+[44.541482] (-) TimerEvent: {}
+[44.641898] (-) TimerEvent: {}
+[44.707201] (ov_eval) StdoutLine: {'line': b'[ 96%] Built target error_comparison\n'}
+[44.742065] (-) TimerEvent: {}
+[44.842507] (-) TimerEvent: {}
+[44.942919] (-) TimerEvent: {}
+[45.043306] (-) TimerEvent: {}
+[45.143741] (-) TimerEvent: {}
+[45.244144] (-) TimerEvent: {}
+[45.344632] (-) TimerEvent: {}
+[45.445074] (-) TimerEvent: {}
+[45.545428] (-) TimerEvent: {}
+[45.645860] (-) TimerEvent: {}
+[45.746205] (-) TimerEvent: {}
+[45.846792] (-) TimerEvent: {}
+[45.947154] (-) TimerEvent: {}
+[46.047525] (-) TimerEvent: {}
+[46.147895] (-) TimerEvent: {}
+[46.248273] (-) TimerEvent: {}
+[46.348685] (-) TimerEvent: {}
+[46.449062] (-) TimerEvent: {}
+[46.549505] (-) TimerEvent: {}
+[46.599683] (ov_eval) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable plot_trajectories\x1b[0m\n'}
+[46.649666] (-) TimerEvent: {}
+[46.750074] (-) TimerEvent: {}
+[46.850469] (-) TimerEvent: {}
+[46.883096] (ov_eval) StdoutLine: {'line': b'[100%] Built target plot_trajectories\n'}
+[46.900583] (ov_eval) CommandEnded: {'returncode': 0}
+[46.902121] (ov_eval) JobProgress: {'identifier': 'ov_eval', 'progress': 'install'}
+[46.915765] (ov_eval) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subbu/slam_ws/build/ov_eval'], 'cwd': '/home/subbu/slam_ws/build/ov_eval', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1764'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1736,unix/orob-sub-hp:/tmp/.ICE-unix/1736'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/432d0c7a_fa22_4f90_934c_ba0258e07bd4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A330I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_eval'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[46.925974] (ov_eval) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[46.926674] (ov_eval) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[46.927119] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.sh\n'}
+[46.937925] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.dsv\n'}
+[46.948698] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/format_converter\n'}
+[46.950523] (-) TimerEvent: {}
+[46.959503] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_comparison\n'}
+[46.972722] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_dataset\n'}
+[46.985111] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_singlerun\n'}
+[46.997305] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_simulation\n'}
+[47.009652] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_comparison\n'}
+[47.021965] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_flamegraph\n'}
+[47.034912] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_histogram\n'}
+[47.045660] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_percentages\n'}
+[47.050657] (-) TimerEvent: {}
+[47.056545] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/plot_trajectories\n'}
+[47.067206] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/package_run_dependencies/ov_eval\n'}
+[47.078702] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/parent_prefix_path/ov_eval\n'}
+[47.091983] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.sh\n'}
+[47.103338] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.dsv\n'}
+[47.114136] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.sh\n'}
+[47.124920] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.dsv\n'}
+[47.135320] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.bash\n'}
+[47.145586] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.sh\n'}
+[47.150773] (-) TimerEvent: {}
+[47.156173] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.zsh\n'}
+[47.166902] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.dsv\n'}
+[47.178155] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.dsv\n'}
+[47.191415] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/packages/ov_eval\n'}
+[47.203668] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.215686] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.227135] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig.cmake\n'}
+[47.237693] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig-version.cmake\n'}
+[47.248448] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.xml\n'}
+[47.250886] (-) TimerEvent: {}
+[47.259108] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/lib/libov_eval_lib.so\n'}
+[47.288185] (ov_eval) StdoutLine: {'line': b'-- Set runtime path of "/home/subbu/slam_ws/install/ov_eval/lib/libov_eval_lib.so" to ""\n'}
+[47.288583] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include\n'}
+[47.288778] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils\n'}
+[47.288976] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils/Statistics.h\n'}
+[47.289256] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils/Loader.h\n'}
+[47.289585] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/utils/Recorder.h\n'}
+[47.292903] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/alignment\n'}
+[47.293206] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignTrajectory.h\n'}
+[47.293539] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignUtils.h\n'}
+[47.293737] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/calc\n'}
+[47.293945] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultSimulation.h\n'}
+[47.294205] (ov_eval) StdoutLine: {'line': b'-- Installing: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultTrajectory.h\n'}
+[47.297230] (ov_eval) CommandEnded: {'returncode': 0}
+[47.330602] (ov_eval) JobEnded: {'identifier': 'ov_eval', 'rc': 0}
+[47.331223] (-) EventReactorShutdown: {}

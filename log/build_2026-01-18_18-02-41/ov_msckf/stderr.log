@@ -1,0 +1,10 @@
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:174: CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterHelper.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:118: CMakeFiles/ov_msckf_lib.dir/src/state/StateHelper.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:188: CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterMSCKF.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:104: CMakeFiles/ov_msckf_lib.dir/src/state/State.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:146: CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:160: CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:90: CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:132: CMakeFiles/ov_msckf_lib.dir/src/state/Propagator.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/ov_msckf_lib.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

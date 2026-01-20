@@ -1,0 +1,89 @@
+-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+-- OPENCV: 4.5.4 | BOOST: 1.74.0 | CERES: 2.0.0
+-- PYTHON VERSION: 3.10.12
+-- PYTHON INCLUDE: /usr/include/python3.10
+-- PYTHON LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- ROS *2* version found, building ROS2.cmake
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found ov_core: 2.7.0 (/home/subbu/slam_ws/install/ov_core/share/ov_core/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/subbu/slam_ws/build/ov_init
+[35m[1mConsolidate compiler generated dependencies of target ov_init_lib[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImuCPIv1.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_GenericPrior.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/ceres/Factor_ImageReprojCalib.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/init/InertialInitializer.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/sim/SimulatorInit.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/dynamic/DynamicInitializer.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/ov_init_lib.dir/src/static/StaticInitializer.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libov_init_lib.so[0m
+[ 62%] Built target ov_init_lib
+[ 81%] [32mBuilding CXX object CMakeFiles/test_dynamic_init.dir/src/test_dynamic_init.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_dynamic_mle.dir/src/test_dynamic_mle.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/test_simulation.dir/src/test_simulation.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable test_simulation[0m
+[ 87%] Built target test_simulation
+[ 93%] [32m[1mLinking CXX executable test_dynamic_mle[0m
+[ 93%] Built target test_dynamic_mle
+[100%] [32m[1mLinking CXX executable test_dynamic_init[0m
+[100%] Built target test_dynamic_init
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.sh
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.dsv
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_simulation
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_mle
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_init
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//display.rviz
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//dynamic.launch
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//mle.launch
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/package_run_dependencies/ov_init
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/parent_prefix_path/ov_init
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.sh
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.dsv
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.sh
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.dsv
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.bash
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.sh
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.zsh
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.dsv
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.dsv
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/packages/ov_init
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig.cmake
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig-version.cmake
+-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.xml
+-- Installing: /home/subbu/slam_ws/install/ov_init/lib/libov_init_lib.so
+-- Set runtime path of "/home/subbu/slam_ws/install/ov_init/lib/libov_init_lib.so" to ""
+-- Installing: /home/subbu/slam_ws/install/ov_init/include
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/utils
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/utils/helper.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/sim
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/sim/SimulatorInit.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/init
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializerOptions.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializer.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/ceres
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/ceres/State_JPLQuatLocal.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImuCPIv1.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_GenericPrior.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImageReprojCalib.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/static
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/static/StaticInitializer.h
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/dynamic
+-- Installing: /home/subbu/slam_ws/install/ov_init/include/dynamic/DynamicInitializer.h

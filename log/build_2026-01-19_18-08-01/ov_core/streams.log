@@ -1,0 +1,74 @@
+[0.028s] Invoking command in '/home/subbu/slam_ws/build/ov_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_core -- -j8 -l8
+[0.205s] [ 78%] Built target ov_core_lib
+[0.263s] [ 89%] Built target test_profile
+[0.266s] [100%] Built target test_webcam
+[0.285s] Invoked command in '/home/subbu/slam_ws/build/ov_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_core -- -j8 -l8
+[0.288s] Invoking command in '/home/subbu/slam_ws/build/ov_core': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_core
+[0.299s] -- Install configuration: ""
+[0.300s] -- Execute custom install script
+[0.301s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/library_path.sh
+[0.302s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/library_path.dsv
+[0.302s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/lib/ov_core/test_webcam
+[0.303s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/lib/ov_core/test_profile
+[0.303s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/package_run_dependencies/ov_core
+[0.304s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/parent_prefix_path/ov_core
+[0.304s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/ament_prefix_path.sh
+[0.305s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/ament_prefix_path.dsv
+[0.305s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/path.sh
+[0.306s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/path.dsv
+[0.306s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.bash
+[0.307s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.sh
+[0.307s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.zsh
+[0.308s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.dsv
+[0.308s] -- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/package.dsv
+[0.322s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/packages/ov_core
+[0.323s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.324s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ament_cmake_export_libraries-extras.cmake
+[0.324s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ov_coreConfig.cmake
+[0.325s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ov_coreConfig-version.cmake
+[0.325s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/package.xml
+[0.327s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/lib/libov_core_lib.so
+[0.327s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include
+[0.327s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils
+[0.328s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/print.h
+[0.328s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/colors.h
+[0.328s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/opencv_lambda_body.h
+[0.329s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/quat_ops.h
+[0.329s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/opencv_yaml_parse.h
+[0.329s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/dataset_reader.h
+[0.330s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/sensor_data.h
+[0.330s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/sim
+[0.330s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/sim/BsplineSE3.h
+[0.331s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/plot
+[0.331s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/plot/matplotlibcpp.h
+[0.331s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track
+[0.331s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/Grider_GRID.h
+[0.331s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackSIM.h
+[0.332s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackBase.h
+[0.332s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackDescriptor.h
+[0.332s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackAruco.h
+[0.332s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/Grider_FAST.h
+[0.332s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackKLT.h
+[0.332s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types
+[0.333s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/Vec.h
+[0.333s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/JPLQuat.h
+[0.333s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/Type.h
+[0.333s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/PoseJPL.h
+[0.334s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/LandmarkRepresentation.h
+[0.336s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/Landmark.h
+[0.336s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/IMU.h
+[0.336s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi
+[0.336s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiV1.h
+[0.336s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiV2.h
+[0.337s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiBase.h
+[0.337s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat
+[0.337s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureInitializerOptions.h
+[0.337s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureDatabase.h
+[0.337s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/Feature.h
+[0.338s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureInitializer.h
+[0.338s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureHelper.h
+[0.338s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam
+[0.339s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam/CamRadtan.h
+[0.339s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam/CamEqui.h
+[0.339s] -- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam/CamBase.h
+[0.340s] Invoked command in '/home/subbu/slam_ws/build/ov_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_core

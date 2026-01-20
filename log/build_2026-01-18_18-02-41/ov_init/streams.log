@@ -1,0 +1,57 @@
+[0.013s] Invoking command in '/home/subbu/slam_ws/build/ov_init': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_init -- -j8 -l8
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target ov_init_lib[0m
+[0.155s] [ 62%] Built target ov_init_lib
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target test_dynamic_init[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target test_simulation[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target test_dynamic_mle[0m
+[0.221s] [100%] Built target test_dynamic_mle
+[0.221s] [100%] Built target test_dynamic_init
+[0.221s] [100%] Built target test_simulation
+[0.235s] Invoked command in '/home/subbu/slam_ws/build/ov_init' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/subbu/slam_ws/build/ov_init -- -j8 -l8
+[0.238s] Invoking command in '/home/subbu/slam_ws/build/ov_init': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_init
+[0.249s] -- Install configuration: ""
+[0.250s] -- Execute custom install script
+[0.251s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.sh
+[0.252s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.dsv
+[0.252s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_simulation
+[0.253s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_mle
+[0.253s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_init
+[0.255s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//display.rviz
+[0.255s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//dynamic.launch
+[0.255s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//mle.launch
+[0.256s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/package_run_dependencies/ov_init
+[0.256s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/parent_prefix_path/ov_init
+[0.257s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.sh
+[0.257s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.dsv
+[0.257s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.sh
+[0.258s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.dsv
+[0.258s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.bash
+[0.258s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.sh
+[0.259s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.zsh
+[0.259s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.dsv
+[0.259s] -- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.dsv
+[0.272s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/packages/ov_init
+[0.273s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.273s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_libraries-extras.cmake
+[0.274s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig.cmake
+[0.274s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig-version.cmake
+[0.274s] -- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.xml
+[0.275s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/lib/libov_init_lib.so
+[0.276s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include
+[0.276s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/utils
+[0.277s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/utils/helper.h
+[0.277s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/sim
+[0.277s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/sim/SimulatorInit.h
+[0.277s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init
+[0.277s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializerOptions.h
+[0.277s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializer.h
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/State_JPLQuatLocal.h
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImuCPIv1.h
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_GenericPrior.h
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImageReprojCalib.h
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/static
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/static/StaticInitializer.h
+[0.278s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/dynamic
+[0.279s] -- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/dynamic/DynamicInitializer.h
+[0.281s] Invoked command in '/home/subbu/slam_ws/build/ov_init' returned '0': AMENT_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/subbu/slam_ws/install/ov_core:/opt/ros/humble LD_LIBRARY_PATH=/home/subbu/slam_ws/install/ov_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/subbu/slam_ws/build/ov_init

@@ -1,0 +1,535 @@
+[0.000000] (-) TimerEvent: {}
+[0.000615] (challenge_tools_ros) JobQueued: {'identifier': 'challenge_tools_ros', 'dependencies': OrderedDict()}
+[0.000735] (ov_core) JobQueued: {'identifier': 'ov_core', 'dependencies': OrderedDict()}
+[0.001414] (ov_data) JobQueued: {'identifier': 'ov_data', 'dependencies': OrderedDict()}
+[0.001450] (ov_eval) JobQueued: {'identifier': 'ov_eval', 'dependencies': OrderedDict([('ov_core', '/home/subbu/slam_ws/install/ov_core')])}
+[0.001479] (ov_init) JobQueued: {'identifier': 'ov_init', 'dependencies': OrderedDict([('ov_core', '/home/subbu/slam_ws/install/ov_core')])}
+[0.001503] (ov_msckf) JobQueued: {'identifier': 'ov_msckf', 'dependencies': OrderedDict([('ov_core', '/home/subbu/slam_ws/install/ov_core'), ('ov_init', '/home/subbu/slam_ws/install/ov_init')])}
+[0.001529] (challenge_tools_ros) JobStarted: {'identifier': 'challenge_tools_ros'}
+[0.014311] (challenge_tools_ros) JobProgress: {'identifier': 'challenge_tools_ros', 'progress': 'cmake'}
+[0.017401] (challenge_tools_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/subbu/slam_ws/src/hilti-trimble-slam-challenge-2026', '-DCMAKE_INSTALL_PREFIX=/home/subbu/slam_ws/install/challenge_tools_ros'], 'cwd': '/home/subbu/slam_ws/build/challenge_tools_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/challenge_tools_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.087824] (challenge_tools_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099942] (-) TimerEvent: {}
+[0.200250] (-) TimerEvent: {}
+[0.255532] (challenge_tools_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.281567] (challenge_tools_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.300341] (-) TimerEvent: {}
+[0.343908] (challenge_tools_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.348916] (challenge_tools_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.359328] (challenge_tools_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375123] (challenge_tools_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.393084] (challenge_tools_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400417] (-) TimerEvent: {}
+[0.500695] (-) TimerEvent: {}
+[0.501409] (challenge_tools_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.535039] (challenge_tools_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.544347] (challenge_tools_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.600834] (-) TimerEvent: {}
+[0.701325] (-) TimerEvent: {}
+[0.801887] (-) TimerEvent: {}
+[0.902313] (-) TimerEvent: {}
+[1.002677] (-) TimerEvent: {}
+[1.103172] (-) TimerEvent: {}
+[1.203521] (-) TimerEvent: {}
+[1.215229] (challenge_tools_ros) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.238746] (challenge_tools_ros) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.243380] (challenge_tools_ros) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.303669] (-) TimerEvent: {}
+[1.404093] (-) TimerEvent: {}
+[1.412596] (challenge_tools_ros) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.420198] (challenge_tools_ros) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.504244] (-) TimerEvent: {}
+[1.588507] (challenge_tools_ros) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.604383] (-) TimerEvent: {}
+[1.659097] (challenge_tools_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.662663] (challenge_tools_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.704529] (-) TimerEvent: {}
+[1.801825] (challenge_tools_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.804648] (-) TimerEvent: {}
+[1.898756] (challenge_tools_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.904774] (-) TimerEvent: {}
+[2.005132] (-) TimerEvent: {}
+[2.043176] (challenge_tools_ros) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.17 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[2.048050] (challenge_tools_ros) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.073786] (challenge_tools_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.105266] (-) TimerEvent: {}
+[2.205601] (-) TimerEvent: {}
+[2.240083] (challenge_tools_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.257141] (challenge_tools_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[2.262596] (challenge_tools_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/subbu/slam_ws/build/challenge_tools_ros\n'}
+[2.282250] (challenge_tools_ros) CommandEnded: {'returncode': 0}
+[2.283256] (challenge_tools_ros) JobProgress: {'identifier': 'challenge_tools_ros', 'progress': 'build'}
+[2.285034] (challenge_tools_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/challenge_tools_ros', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/challenge_tools_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/challenge_tools_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.305797] (-) TimerEvent: {}
+[2.369230] (challenge_tools_ros) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_challenge_tools_ros\n'}
+[2.405930] (-) TimerEvent: {}
+[2.506257] (-) TimerEvent: {}
+[2.606594] (-) TimerEvent: {}
+[2.653676] (challenge_tools_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.654714] (challenge_tools_ros) StdoutLine: {'line': b'writing challenge_tools_ros.egg-info/PKG-INFO\n'}
+[2.655118] (challenge_tools_ros) StdoutLine: {'line': b'writing dependency_links to challenge_tools_ros.egg-info/dependency_links.txt\n'}
+[2.655617] (challenge_tools_ros) StdoutLine: {'line': b'writing top-level names to challenge_tools_ros.egg-info/top_level.txt\n'}
+[2.658926] (challenge_tools_ros) StdoutLine: {'line': b"reading manifest file 'challenge_tools_ros.egg-info/SOURCES.txt'\n"}
+[2.659926] (challenge_tools_ros) StdoutLine: {'line': b"writing manifest file 'challenge_tools_ros.egg-info/SOURCES.txt'\n"}
+[2.690577] (challenge_tools_ros) StdoutLine: {'line': b'Built target ament_cmake_python_build_challenge_tools_ros_egg\n'}
+[2.704215] (challenge_tools_ros) CommandEnded: {'returncode': 0}
+[2.705327] (challenge_tools_ros) JobProgress: {'identifier': 'challenge_tools_ros', 'progress': 'install'}
+[2.706702] (-) TimerEvent: {}
+[2.717119] (challenge_tools_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subbu/slam_ws/build/challenge_tools_ros'], 'cwd': '/home/subbu/slam_ws/build/challenge_tools_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/challenge_tools_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.727866] (challenge_tools_ros) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.728586] (challenge_tools_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.729465] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/pythonpath.sh\n'}
+[2.729975] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/pythonpath.dsv\n'}
+[2.731226] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/PKG-INFO\n'}
+[2.731590] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.731937] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.732229] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros-0.16.0-py3.10.egg-info/top_level.txt\n'}
+[2.733051] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros/README.md\n'}
+[2.733393] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros/__init__.py\n'}
+[2.734617] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/map_server.py\n'}
+[2.735040] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/apply_image_mask.py\n'}
+[2.735321] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/image_conversion_node.py\n'}
+[2.735628] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/rotate_image_180.py\n'}
+[2.735926] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/groundtruth_converter.py\n'}
+[2.736269] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/groundtruth_server.py\n'}
+[2.736543] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/challenge_tools_lib.py\n'}
+[2.736939] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/lib/challenge_tools_ros/ros2bag_to_euroc.py\n'}
+[2.737593] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/ament_index/resource_index/package_run_dependencies/challenge_tools_ros\n'}
+[2.738284] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/ament_index/resource_index/parent_prefix_path/challenge_tools_ros\n'}
+[2.738724] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/ament_prefix_path.sh\n'}
+[2.739231] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/ament_prefix_path.dsv\n'}
+[2.739646] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/path.sh\n'}
+[2.739978] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/environment/path.dsv\n'}
+[2.740378] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.bash\n'}
+[2.740750] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.sh\n'}
+[2.741187] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.zsh\n'}
+[2.741520] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/local_setup.dsv\n'}
+[2.741791] (challenge_tools_ros) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/package.dsv\n'}
+[2.757444] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/ament_index/resource_index/packages/challenge_tools_ros\n'}
+[2.757975] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.758414] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/cmake/challenge_tools_rosConfig.cmake\n'}
+[2.758673] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/cmake/challenge_tools_rosConfig-version.cmake\n'}
+[2.759123] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/package.xml\n'}
+[2.800789] (challenge_tools_ros) StdoutLine: {'line': b"Listing '/home/subbu/slam_ws/install/challenge_tools_ros/local/lib/python3.10/dist-packages/challenge_tools_ros'...\n"}
+[2.805946] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config\n'}
+[2.806312] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins\n'}
+[2.806716] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/mask_cam0.png\n'}
+[2.806994] (-) TimerEvent: {}
+[2.807234] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/kalibr_imucam_chain.yaml\n'}
+[2.807431] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/mask_cam1.png\n'}
+[2.807583] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/kalibr_imu_chain.yaml\n'}
+[2.807950] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_openvins/estimator_config.yaml\n'}
+[2.808194] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/procman.pmd\n'}
+[2.808350] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz\n'}
+[2.808501] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz/rviz_ov.rviz\n'}
+[2.808654] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz/rviz_map_server.rviz\n'}
+[2.808928] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/rviz/rviz_ov_and_map_server.rviz\n'}
+[2.809167] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam\n'}
+[2.809321] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam/equirectangular.yaml\n'}
+[2.809472] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam/orb_vocab.fbow\n'}
+[2.809634] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/config/hilti_stella_vslam/fisheye.yaml\n'}
+[2.809888] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch\n'}
+[2.810044] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/run_openvins.launch.py\n'}
+[2.810143] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/apply_image_mask_dual.launch\n'}
+[2.810254] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/rviz_map_server.launch\n'}
+[2.810335] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/run_stella_vslam.launch.py\n'}
+[2.810415] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/rviz_ov_and_map_server.launch\n'}
+[2.810504] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/groundtruth_server.launch\n'}
+[2.810616] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/map_server.launch\n'}
+[2.810795] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/launch/rviz_ov.launch\n'}
+[2.810951] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans\n'}
+[2.811055] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans/floor_2.png\n'}
+[2.811162] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans/floor_1.png\n'}
+[2.811254] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/floorplans/floor_UG.png\n'}
+[2.811379] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth\n'}
+[2.811471] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-05-05_run_1\n'}
+[2.811584] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-05-05_run_1/aligned_frame_trajectory_3d_2d_gt.bin\n'}
+[2.811768] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-05-05_run_1/gt_poses.csv\n'}
+[2.811926] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_1_2025-05-05_run_1\n'}
+[2.812046] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_1_2025-05-05_run_1/aligned_frame_trajectory_3d_2d_gt.bin\n'}
+[2.812217] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_1_2025-05-05_run_1/gt_poses.csv\n'}
+[2.812361] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_1\n'}
+[2.812505] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_1/aligned_frame_trajectory_3d_2d_gt.bin\n'}
+[2.812658] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_1/gt_poses.csv\n'}
+[2.812875] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_UG_2025-10-16_run_1\n'}
+[2.812988] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_UG_2025-10-16_run_1/aligned_frame_trajectory_3d_2d_gt.bin\n'}
+[2.813079] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_UG_2025-10-16_run_1/gt_poses.csv\n'}
+[2.813185] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_2\n'}
+[2.813279] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_2/aligned_frame_trajectory_3d_2d_gt.bin\n'}
+[2.813388] (challenge_tools_ros) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/challenge_tools_ros/share/challenge_tools_ros/groundtruth/floor_2_2025-10-28_run_2/gt_poses.csv\n'}
+[2.816129] (challenge_tools_ros) CommandEnded: {'returncode': 0}
+[2.850268] (challenge_tools_ros) JobEnded: {'identifier': 'challenge_tools_ros', 'rc': 0}
+[2.851070] (ov_core) JobStarted: {'identifier': 'ov_core'}
+[2.856449] (ov_core) JobProgress: {'identifier': 'ov_core', 'progress': 'cmake'}
+[2.858049] (ov_core) JobProgress: {'identifier': 'ov_core', 'progress': 'build'}
+[2.859925] (ov_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/ov_core', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/ov_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_core'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.907174] (-) TimerEvent: {}
+[3.007641] (-) TimerEvent: {}
+[3.077042] (ov_core) StdoutLine: {'line': b'[ 78%] Built target ov_core_lib\n'}
+[3.107793] (-) TimerEvent: {}
+[3.129713] (ov_core) StdoutLine: {'line': b'[ 89%] Built target test_profile\n'}
+[3.136357] (ov_core) StdoutLine: {'line': b'[100%] Built target test_webcam\n'}
+[3.149960] (ov_core) CommandEnded: {'returncode': 0}
+[3.151256] (ov_core) JobProgress: {'identifier': 'ov_core', 'progress': 'install'}
+[3.152308] (ov_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subbu/slam_ws/build/ov_core'], 'cwd': '/home/subbu/slam_ws/build/ov_core', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_core'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.163808] (ov_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.164671] (ov_core) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.166066] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/library_path.sh\n'}
+[3.166567] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/library_path.dsv\n'}
+[3.167589] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/lib/ov_core/test_webcam\n'}
+[3.168070] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/lib/ov_core/test_profile\n'}
+[3.168983] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/package_run_dependencies/ov_core\n'}
+[3.169519] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/parent_prefix_path/ov_core\n'}
+[3.169879] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/ament_prefix_path.sh\n'}
+[3.170335] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/ament_prefix_path.dsv\n'}
+[3.170658] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/path.sh\n'}
+[3.171042] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/environment/path.dsv\n'}
+[3.171472] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.bash\n'}
+[3.171913] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.sh\n'}
+[3.172267] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.zsh\n'}
+[3.172697] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/local_setup.dsv\n'}
+[3.172963] (ov_core) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_core/share/ov_core/package.dsv\n'}
+[3.184817] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ament_index/resource_index/packages/ov_core\n'}
+[3.185208] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.185648] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.186021] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ov_coreConfig.cmake\n'}
+[3.186361] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/cmake/ov_coreConfig-version.cmake\n'}
+[3.186588] (ov_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_core/share/ov_core/package.xml\n'}
+[3.187624] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/lib/libov_core_lib.so\n'}
+[3.188065] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include\n'}
+[3.188292] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils\n'}
+[3.188585] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/print.h\n'}
+[3.188973] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/colors.h\n'}
+[3.189182] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/opencv_lambda_body.h\n'}
+[3.189330] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/quat_ops.h\n'}
+[3.189536] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/opencv_yaml_parse.h\n'}
+[3.189715] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/dataset_reader.h\n'}
+[3.189979] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/utils/sensor_data.h\n'}
+[3.190101] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/sim\n'}
+[3.190218] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/sim/BsplineSE3.h\n'}
+[3.190364] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/plot\n'}
+[3.190599] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/plot/matplotlibcpp.h\n'}
+[3.190956] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track\n'}
+[3.191316] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/Grider_GRID.h\n'}
+[3.191489] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackSIM.h\n'}
+[3.191661] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackBase.h\n'}
+[3.192044] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackDescriptor.h\n'}
+[3.192286] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackAruco.h\n'}
+[3.192462] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/Grider_FAST.h\n'}
+[3.192630] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/track/TrackKLT.h\n'}
+[3.192872] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types\n'}
+[3.193018] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/Vec.h\n'}
+[3.193155] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/JPLQuat.h\n'}
+[3.193306] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/Type.h\n'}
+[3.193443] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/PoseJPL.h\n'}
+[3.193586] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/LandmarkRepresentation.h\n'}
+[3.193724] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/Landmark.h\n'}
+[3.193917] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/types/IMU.h\n'}
+[3.194056] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi\n'}
+[3.194200] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiV1.h\n'}
+[3.194342] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiV2.h\n'}
+[3.194487] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cpi/CpiBase.h\n'}
+[3.194631] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat\n'}
+[3.194821] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureInitializerOptions.h\n'}
+[3.195048] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureDatabase.h\n'}
+[3.195193] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/Feature.h\n'}
+[3.195338] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureInitializer.h\n'}
+[3.195482] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/feat/FeatureHelper.h\n'}
+[3.195626] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam\n'}
+[3.195786] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam/CamRadtan.h\n'}
+[3.196204] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam/CamEqui.h\n'}
+[3.196761] (ov_core) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_core/include/cam/CamBase.h\n'}
+[3.197692] (ov_core) CommandEnded: {'returncode': 0}
+[3.207890] (-) TimerEvent: {}
+[3.219908] (ov_core) JobEnded: {'identifier': 'ov_core', 'rc': 0}
+[3.220602] (ov_data) JobStarted: {'identifier': 'ov_data'}
+[3.227095] (ov_data) JobProgress: {'identifier': 'ov_data', 'progress': 'cmake'}
+[3.228696] (ov_data) JobProgress: {'identifier': 'ov_data', 'progress': 'build'}
+[3.230156] (ov_data) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/ov_data', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/ov_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_data'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.280647] (ov_data) CommandEnded: {'returncode': 0}
+[3.283748] (ov_data) JobProgress: {'identifier': 'ov_data', 'progress': 'install'}
+[3.283834] (ov_data) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subbu/slam_ws/build/ov_data'], 'cwd': '/home/subbu/slam_ws/build/ov_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_data'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.293134] (ov_data) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.293944] (ov_data) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.295330] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/package_run_dependencies/ov_data\n'}
+[3.296035] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/parent_prefix_path/ov_data\n'}
+[3.296567] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/ament_prefix_path.sh\n'}
+[3.297027] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/ament_prefix_path.dsv\n'}
+[3.297440] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/path.sh\n'}
+[3.297928] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/environment/path.dsv\n'}
+[3.298262] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.bash\n'}
+[3.298653] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.sh\n'}
+[3.299093] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.zsh\n'}
+[3.299477] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/local_setup.dsv\n'}
+[3.299650] (ov_data) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_data/share/ov_data/package.dsv\n'}
+[3.308035] (-) TimerEvent: {}
+[3.310548] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ament_index/resource_index/packages/ov_data\n'}
+[3.311105] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/cmake/ov_dataConfig.cmake\n'}
+[3.311493] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/cmake/ov_dataConfig-version.cmake\n'}
+[3.311693] (ov_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_data/share/ov_data/package.xml\n'}
+[3.314527] (ov_data) CommandEnded: {'returncode': 0}
+[3.331802] (ov_data) JobEnded: {'identifier': 'ov_data', 'rc': 0}
+[3.332645] (ov_eval) JobStarted: {'identifier': 'ov_eval'}
+[3.343801] (ov_eval) JobProgress: {'identifier': 'ov_eval', 'progress': 'cmake'}
+[3.345268] (ov_eval) JobProgress: {'identifier': 'ov_eval', 'progress': 'build'}
+[3.346455] (ov_eval) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/ov_eval', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/ov_eval', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_eval'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[3.408158] (-) TimerEvent: {}
+[3.418433] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ov_eval_lib\x1b[0m\n'}
+[3.460403] (ov_eval) StdoutLine: {'line': b'[ 25%] Built target ov_eval_lib\n'}
+[3.490807] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target format_converter\x1b[0m\n'}
+[3.491109] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target error_comparison\x1b[0m\n'}
+[3.491304] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target error_dataset\x1b[0m\n'}
+[3.491546] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target error_simulation\x1b[0m\n'}
+[3.491799] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target error_singlerun\x1b[0m\n'}
+[3.492057] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target timing_flamegraph\x1b[0m\n'}
+[3.492294] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target timing_comparison\x1b[0m\n'}
+[3.492530] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target timing_histogram\x1b[0m\n'}
+[3.508279] (-) TimerEvent: {}
+[3.538241] (ov_eval) StdoutLine: {'line': b'[ 37%] Built target error_simulation\n'}
+[3.538575] (ov_eval) StdoutLine: {'line': b'[ 40%] Built target format_converter\n'}
+[3.540519] (ov_eval) StdoutLine: {'line': b'[ 48%] Built target error_singlerun\n'}
+[3.541936] (ov_eval) StdoutLine: {'line': b'[ 70%] Built target timing_histogram\n'}
+[3.542378] (ov_eval) StdoutLine: {'line': b'[ 70%] Built target timing_flamegraph\n'}
+[3.542627] (ov_eval) StdoutLine: {'line': b'[ 70%] Built target timing_comparison\n'}
+[3.545656] (ov_eval) StdoutLine: {'line': b'[ 77%] Built target error_dataset\n'}
+[3.550258] (ov_eval) StdoutLine: {'line': b'[ 85%] Built target error_comparison\n'}
+[3.560296] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target timing_percentages\x1b[0m\n'}
+[3.561201] (ov_eval) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plot_trajectories\x1b[0m\n'}
+[3.589042] (ov_eval) StdoutLine: {'line': b'[100%] Built target plot_trajectories\n'}
+[3.589281] (ov_eval) StdoutLine: {'line': b'[100%] Built target timing_percentages\n'}
+[3.604110] (ov_eval) CommandEnded: {'returncode': 0}
+[3.606021] (ov_eval) JobProgress: {'identifier': 'ov_eval', 'progress': 'install'}
+[3.606441] (ov_eval) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subbu/slam_ws/build/ov_eval'], 'cwd': '/home/subbu/slam_ws/build/ov_eval', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_eval'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[3.608439] (-) TimerEvent: {}
+[3.616689] (ov_eval) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.617684] (ov_eval) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.619156] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.sh\n'}
+[3.619632] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/library_path.dsv\n'}
+[3.620652] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/format_converter\n'}
+[3.621301] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_comparison\n'}
+[3.621789] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_dataset\n'}
+[3.622254] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_singlerun\n'}
+[3.622711] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/error_simulation\n'}
+[3.623266] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_comparison\n'}
+[3.623663] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_flamegraph\n'}
+[3.624135] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_histogram\n'}
+[3.624549] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/timing_percentages\n'}
+[3.625084] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/lib/ov_eval/plot_trajectories\n'}
+[3.626041] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/package_run_dependencies/ov_eval\n'}
+[3.626623] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/parent_prefix_path/ov_eval\n'}
+[3.627047] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.sh\n'}
+[3.627404] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/ament_prefix_path.dsv\n'}
+[3.627846] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.sh\n'}
+[3.628192] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/environment/path.dsv\n'}
+[3.628485] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.bash\n'}
+[3.628741] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.sh\n'}
+[3.629077] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.zsh\n'}
+[3.629405] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/local_setup.dsv\n'}
+[3.629550] (ov_eval) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.dsv\n'}
+[3.642987] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ament_index/resource_index/packages/ov_eval\n'}
+[3.643403] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.643727] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.644079] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig.cmake\n'}
+[3.644327] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/cmake/ov_evalConfig-version.cmake\n'}
+[3.644541] (ov_eval) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_eval/share/ov_eval/package.xml\n'}
+[3.645566] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/lib/libov_eval_lib.so\n'}
+[3.645984] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include\n'}
+[3.646216] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils\n'}
+[3.646419] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils/Statistics.h\n'}
+[3.646587] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils/Loader.h\n'}
+[3.646936] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/utils/Recorder.h\n'}
+[3.647108] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/alignment\n'}
+[3.647279] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignTrajectory.h\n'}
+[3.647448] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/alignment/AlignUtils.h\n'}
+[3.647618] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/calc\n'}
+[3.647889] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultSimulation.h\n'}
+[3.648041] (ov_eval) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_eval/include/calc/ResultTrajectory.h\n'}
+[3.649952] (ov_eval) CommandEnded: {'returncode': 0}
+[3.674809] (ov_eval) JobEnded: {'identifier': 'ov_eval', 'rc': 0}
+[3.676067] (ov_init) JobStarted: {'identifier': 'ov_init'}
+[3.684314] (ov_init) JobProgress: {'identifier': 'ov_init', 'progress': 'cmake'}
+[3.685684] (ov_init) JobProgress: {'identifier': 'ov_init', 'progress': 'build'}
+[3.686817] (ov_init) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/ov_init', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/ov_init', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_init'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[3.708578] (-) TimerEvent: {}
+[3.770234] (ov_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ov_init_lib\x1b[0m\n'}
+[3.808739] (-) TimerEvent: {}
+[3.831305] (ov_init) StdoutLine: {'line': b'[ 62%] Built target ov_init_lib\n'}
+[3.853479] (ov_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_dynamic_init\x1b[0m\n'}
+[3.853882] (ov_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_simulation\x1b[0m\n'}
+[3.854065] (ov_init) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_dynamic_mle\x1b[0m\n'}
+[3.896617] (ov_init) StdoutLine: {'line': b'[100%] Built target test_dynamic_mle\n'}
+[3.896989] (ov_init) StdoutLine: {'line': b'[100%] Built target test_dynamic_init\n'}
+[3.897209] (ov_init) StdoutLine: {'line': b'[100%] Built target test_simulation\n'}
+[3.908923] (-) TimerEvent: {}
+[3.911304] (ov_init) CommandEnded: {'returncode': 0}
+[3.913626] (ov_init) JobProgress: {'identifier': 'ov_init', 'progress': 'install'}
+[3.914244] (ov_init) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/subbu/slam_ws/build/ov_init'], 'cwd': '/home/subbu/slam_ws/build/ov_init', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_init'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[3.925148] (ov_init) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.926065] (ov_init) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.927411] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.sh\n'}
+[3.927697] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/library_path.dsv\n'}
+[3.928448] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_simulation\n'}
+[3.928948] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_mle\n'}
+[3.929468] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/lib/ov_init/test_dynamic_init\n'}
+[3.930538] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//display.rviz\n'}
+[3.930718] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//dynamic.launch\n'}
+[3.930936] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/launch//mle.launch\n'}
+[3.931702] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/package_run_dependencies/ov_init\n'}
+[3.932357] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/parent_prefix_path/ov_init\n'}
+[3.932667] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.sh\n'}
+[3.933002] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/ament_prefix_path.dsv\n'}
+[3.933280] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.sh\n'}
+[3.933615] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/environment/path.dsv\n'}
+[3.933963] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.bash\n'}
+[3.934318] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.sh\n'}
+[3.934716] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.zsh\n'}
+[3.935179] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/local_setup.dsv\n'}
+[3.935420] (ov_init) StdoutLine: {'line': b'-- Symlinking: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.dsv\n'}
+[3.948412] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ament_index/resource_index/packages/ov_init\n'}
+[3.948791] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.949233] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.949568] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig.cmake\n'}
+[3.949871] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/cmake/ov_initConfig-version.cmake\n'}
+[3.950094] (ov_init) StdoutLine: {'line': b'-- Up-to-date symlink: /home/subbu/slam_ws/install/ov_init/share/ov_init/package.xml\n'}
+[3.951231] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/lib/libov_init_lib.so\n'}
+[3.951661] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include\n'}
+[3.952050] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/utils\n'}
+[3.952409] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/utils/helper.h\n'}
+[3.952850] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/sim\n'}
+[3.953129] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/sim/SimulatorInit.h\n'}
+[3.953263] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init\n'}
+[3.953396] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializerOptions.h\n'}
+[3.953541] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/init/InertialInitializer.h\n'}
+[3.953654] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres\n'}
+[3.953929] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/State_JPLQuatLocal.h\n'}
+[3.954047] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImuCPIv1.h\n'}
+[3.954133] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_GenericPrior.h\n'}
+[3.954229] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/ceres/Factor_ImageReprojCalib.h\n'}
+[3.954314] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/static\n'}
+[3.954412] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/static/StaticInitializer.h\n'}
+[3.954497] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/dynamic\n'}
+[3.954581] (ov_init) StdoutLine: {'line': b'-- Up-to-date: /home/subbu/slam_ws/install/ov_init/include/dynamic/DynamicInitializer.h\n'}
+[3.956992] (ov_init) CommandEnded: {'returncode': 0}
+[3.979637] (ov_init) JobEnded: {'identifier': 'ov_init', 'rc': 0}
+[3.980662] (ov_msckf) JobStarted: {'identifier': 'ov_msckf'}
+[3.991818] (ov_msckf) JobProgress: {'identifier': 'ov_msckf', 'progress': 'cmake'}
+[3.993610] (ov_msckf) JobProgress: {'identifier': 'ov_msckf', 'progress': 'build'}
+[3.994968] (ov_msckf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/subbu/slam_ws/build/ov_msckf', '--', '-j8', '-l8'], 'cwd': '/home/subbu/slam_ws/build/ov_msckf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'subbu'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/subbu/slam_ws/install/ov_init/lib:/home/subbu/slam_ws/install/ov_core/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/subbu'), ('OLDPWD', '/home/subbu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1777'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'subbu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'subbu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/orob-sub-hp:@/tmp/.ICE-unix/1754,unix/orob-sub-hp:/tmp/.ICE-unix/1754'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80216d64_ac12_408c_a5dc_98a4b3519c6f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D39AJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_init:/home/subbu/slam_ws/install/ov_core:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/subbu/slam_ws/build/ov_msckf'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/subbu/slam_ws/install/ov_init:/home/subbu/slam_ws/install/ov_core:/opt/ros/humble')]), 'shell': False}
+[4.009029] (-) TimerEvent: {}
+[4.099957] (ov_msckf) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/state/State.cpp.o\x1b[0m\n'}
+[4.100345] (ov_msckf) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o\x1b[0m\n'}
+[4.100573] (ov_msckf) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/state/StateHelper.cpp.o\x1b[0m\n'}
+[4.100799] (ov_msckf) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/state/Propagator.cpp.o\x1b[0m\n'}
+[4.101153] (ov_msckf) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o\x1b[0m\n'}
+[4.101379] (ov_msckf) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o\x1b[0m\n'}
+[4.101600] (ov_msckf) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterHelper.cpp.o\x1b[0m\n'}
+[4.102395] (ov_msckf) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterMSCKF.cpp.o\x1b[0m\n'}
+[4.110507] (-) TimerEvent: {}
+[4.212838] (-) TimerEvent: {}
+[4.313312] (-) TimerEvent: {}
+[4.413719] (-) TimerEvent: {}
+[4.514153] (-) TimerEvent: {}
+[4.614572] (-) TimerEvent: {}
+[4.716325] (-) TimerEvent: {}
+[4.816993] (-) TimerEvent: {}
+[4.917544] (-) TimerEvent: {}
+[5.019240] (-) TimerEvent: {}
+[5.119694] (-) TimerEvent: {}
+[5.222817] (-) TimerEvent: {}
+[5.323400] (-) TimerEvent: {}
+[5.424113] (-) TimerEvent: {}
+[5.525470] (-) TimerEvent: {}
+[5.628818] (-) TimerEvent: {}
+[5.729453] (-) TimerEvent: {}
+[5.830068] (-) TimerEvent: {}
+[5.930669] (-) TimerEvent: {}
+[6.031651] (-) TimerEvent: {}
+[6.133849] (-) TimerEvent: {}
+[6.234358] (-) TimerEvent: {}
+[6.334913] (-) TimerEvent: {}
+[6.436816] (-) TimerEvent: {}
+[6.537412] (-) TimerEvent: {}
+[6.637919] (-) TimerEvent: {}
+[6.738383] (-) TimerEvent: {}
+[6.840327] (-) TimerEvent: {}
+[6.943814] (-) TimerEvent: {}
+[7.044235] (-) TimerEvent: {}
+[7.144685] (-) TimerEvent: {}
+[7.245301] (-) TimerEvent: {}
+[7.345893] (-) TimerEvent: {}
+[7.450092] (-) TimerEvent: {}
+[7.550721] (-) TimerEvent: {}
+[7.651166] (-) TimerEvent: {}
+[7.751593] (-) TimerEvent: {}
+[7.852252] (-) TimerEvent: {}
+[7.952999] (-) TimerEvent: {}
+[8.053617] (-) TimerEvent: {}
+[8.154257] (-) TimerEvent: {}
+[8.258818] (-) TimerEvent: {}
+[8.359262] (-) TimerEvent: {}
+[8.459706] (-) TimerEvent: {}
+[8.560204] (-) TimerEvent: {}
+[8.660713] (-) TimerEvent: {}
+[8.761213] (-) TimerEvent: {}
+[8.861677] (-) TimerEvent: {}
+[8.962136] (-) TimerEvent: {}
+[9.062579] (-) TimerEvent: {}
+[9.165817] (-) TimerEvent: {}
+[9.266275] (-) TimerEvent: {}
+[9.366929] (-) TimerEvent: {}
+[9.467581] (-) TimerEvent: {}
+[9.568199] (-) TimerEvent: {}
+[9.668829] (-) TimerEvent: {}
+[9.771821] (-) TimerEvent: {}
+[9.872258] (-) TimerEvent: {}
+[9.972692] (-) TimerEvent: {}
+[10.073131] (-) TimerEvent: {}
+[10.173541] (-) TimerEvent: {}
+[10.273962] (-) TimerEvent: {}
+[10.374389] (-) TimerEvent: {}
+[10.476826] (-) TimerEvent: {}
+[10.577321] (-) TimerEvent: {}
+[10.677788] (-) TimerEvent: {}
+[10.778263] (-) TimerEvent: {}
+[10.878690] (-) TimerEvent: {}
+[10.979820] (-) TimerEvent: {}
+[11.080284] (-) TimerEvent: {}
+[11.181819] (-) TimerEvent: {}
+[11.282242] (-) TimerEvent: {}
+[11.383825] (-) TimerEvent: {}
+[11.485835] (-) TimerEvent: {}
+[11.586350] (-) TimerEvent: {}
+[11.686822] (-) TimerEvent: {}
+[11.789270] (-) TimerEvent: {}
+[11.889699] (-) TimerEvent: {}
+[11.990168] (-) TimerEvent: {}
+[12.090677] (-) TimerEvent: {}
+[12.194020] (-) TimerEvent: {}
+[12.294494] (-) TimerEvent: {}
+[12.395015] (-) TimerEvent: {}
+[12.495519] (-) TimerEvent: {}
+[12.596062] (-) TimerEvent: {}
+[12.696525] (-) TimerEvent: {}
+[12.800118] (-) TimerEvent: {}
+[12.900801] (-) TimerEvent: {}
+[13.001261] (-) TimerEvent: {}
+[13.101826] (-) TimerEvent: {}
+[13.206039] (-) TimerEvent: {}
+[13.306748] (-) TimerEvent: {}
+[13.411058] (-) TimerEvent: {}
+[13.511594] (-) TimerEvent: {}
+[13.612085] (-) TimerEvent: {}
+[13.669974] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:174: CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterHelper.cpp.o] Interrupt\n'}
+[13.670371] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:118: CMakeFiles/ov_msckf_lib.dir/src/state/StateHelper.cpp.o] Interrupt\n'}
+[13.670574] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:188: CMakeFiles/ov_msckf_lib.dir/src/update/UpdaterMSCKF.cpp.o] Interrupt\n'}
+[13.670795] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:104: CMakeFiles/ov_msckf_lib.dir/src/state/State.cpp.o] Interrupt\n'}
+[13.670995] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:146: CMakeFiles/ov_msckf_lib.dir/src/core/VioManager.cpp.o] Interrupt\n'}
+[13.671190] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:160: CMakeFiles/ov_msckf_lib.dir/src/core/VioManagerHelper.cpp.o] Interrupt\n'}
+[13.674083] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:90: CMakeFiles/ov_msckf_lib.dir/src/sim/Simulator.cpp.o] Interrupt\n'}
+[13.674418] (ov_msckf) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ov_msckf_lib.dir/build.make:132: CMakeFiles/ov_msckf_lib.dir/src/state/Propagator.cpp.o] Interrupt\n'}
+[13.678385] (ov_msckf) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:145: CMakeFiles/ov_msckf_lib.dir/all] Interrupt\n'}
+[13.678715] (ov_msckf) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[13.712763] (-) TimerEvent: {}
+[13.789061] (ov_msckf) CommandEnded: {'returncode': -2}
+[13.799672] (ov_msckf) JobEnded: {'identifier': 'ov_msckf', 'rc': 'SIGINT'}
+[13.800664] (-) EventReactorShutdown: {}

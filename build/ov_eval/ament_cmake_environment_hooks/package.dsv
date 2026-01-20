@@ -1,0 +1,4 @@
+source;share/ov_eval/local_setup.bash
+source;share/ov_eval/local_setup.dsv
+source;share/ov_eval/local_setup.sh
+source;share/ov_eval/local_setup.zsh
