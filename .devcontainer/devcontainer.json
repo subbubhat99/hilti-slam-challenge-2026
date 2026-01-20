@@ -1,0 +1,35 @@
+{
+   "name": "ROS Development Environment",
+   "image": "osrf/ros:humble-desktop-full",
+
+   "features": {
+     "ghcr.io/devcontainers/features/common-utils:2": {
+       "installZsh": true,
+       "installOhMyZsh": true
+     }
+   },
+
+   "customizations": {
+     "vscode": {
+       "extensions": [
+	 "ms-vscode.cpptools",
+	 "ms-python.python",
+	 "ms-iot.vscode-ros"
+       ],
+       "settings": {
+	  "terminal.integrated.shell.linux": "/bin/bash"
+	}
+      }
+   },
+
+   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y python3-colcon-common-extensions python3-rosdep && sudo rosdep init || true && rosdep update",
+
+   "remoteUser": "root",
+
+   "runArgs": [
+     "--network=host"
+   ],
+
+   "workspaceFolder": "/workspace",
+   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace, type=bind"
+}
