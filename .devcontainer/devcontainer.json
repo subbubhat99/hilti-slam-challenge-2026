@@ -28,8 +28,5 @@
 
    "runArgs": [
      "--network=host"
-   ],
-
-   "workspaceFolder": "/workspace",
-   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace, type=bind"
+   ]
 }
